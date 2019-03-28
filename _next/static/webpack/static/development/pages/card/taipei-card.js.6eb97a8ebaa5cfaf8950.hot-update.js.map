@@ -1,0 +1,1 @@
+{"version":3,"file":"static/webpack/static/development/pages/card/taipei-card.js.6eb97a8ebaa5cfaf8950.hot-update.js","sources":["webpack:///./components/Profile.tsx"],"sourcesContent":["import { Card } from 'antd';\n\nexport default function Profile() {\n  return (\n    <div>\n      \n    </div>\n  );\n}\n"],"mappings":";;;;;;;;;;;;;;;AAEA;AACA;AAKA;;;;A","sourceRoot":""}

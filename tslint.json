@@ -1,7 +1,0 @@
-{
-  "extends": "@visuallylab/tslint-config-frontend",
-  "rules": {
-    "jsx-boolean-value": ["always", "never"],
-    "no-console": [true, "warning"]
-  }
-}
