@@ -14,23 +14,22 @@ const Section: React.FunctionComponent<IProps> = ({
   title = '',
   textAlign = 'left',
   fullscreen = false,
-  first = false,
   alignItems = 'center',
 }) => (
   <section className={`py align w-100 ${fullscreen ? 'h-100' : ''}`}>
     <h1>{title}</h1>
     {children}
-    <style jsx={true}>{`
+    <style jsx>{`
       .h-100 {
-        height: 100vh;
+        min-height: 100vh;
         box-sizing: border-box;
       }
       .w-100 {
         width: 100%;
       }
       .py {
-        padding-top: ${first ? 'calc(8vh + 64px)' : '8vh'};
-        padding-bottom: 8vh;
+        padding-top: 4vh;
+        padding-bottom: 4vh;
       }
       .align {
         display: flex;
