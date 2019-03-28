@@ -12,7 +12,7 @@
     "axios": "^0.18.0",
     "dotenv": "^6.2.0",
     "express": "^4.16.4",
-    "next": "^8.0.3",
+    "next": "^7.0.3",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "less": "3.0.4",
@@ -21,7 +21,7 @@
   "devDependencies": {
     "@babel/plugin-proposal-class-properties": "^7.2.1",
     "@babel/plugin-proposal-decorators": "^7.1.0",
-    "@types/next": "^8.0.3",
+    "@types/next": "^7.0.3",
     "@types/react": "^16.8.10",
     "@types/styled-jsx": "^2.2.8",
     "@visuallylab/tslint-config-frontend": "^1.0.11",

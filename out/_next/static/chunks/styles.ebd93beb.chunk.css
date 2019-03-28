@@ -1,0 +1,22 @@
+.ant-tabs {
+  color: #fff;
+}
+.ant-tabs-nav {
+  display: flex;
+  width: 100%;
+}
+.ant-tabs-nav > div {
+  width: 50%;
+}
+.ant-tabs-nav .ant-tabs-tab {
+  flex-grow: 1;
+  margin-right: 0;
+  width: 100%;
+  text-align: center;
+}
+.ant-tabs-nav .ant-tabs-tab.ant-tabs-tab-active {
+  color: #161c35;
+}
+.ant-tabs-nav .ant-tabs-ink-bar {
+  background-color: #161c35;
+}
