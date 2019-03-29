@@ -94,10 +94,17 @@
       /*!****************************!*\
   !*** ./constants/index.ts ***!
   \****************************/
-      /*! exports provided: SITE_TITLE, SITE_DESC, SITE_URL, FAVICON_PATH, LARGE_ICON_PATH, NAV_TITLE */
+      /*! exports provided: PROJ_NAME, SITE_TITLE, SITE_DESC, SITE_URL, FAVICON_PATH, LARGE_ICON_PATH, NAV_TITLE */
       /***/ function(module, __webpack_exports__, __webpack_require__) {
         'use strict';
         __webpack_require__.r(__webpack_exports__);
+        /* harmony export (binding) */ __webpack_require__.d(
+          __webpack_exports__,
+          'PROJ_NAME',
+          function() {
+            return PROJ_NAME;
+          },
+        );
         /* harmony export (binding) */ __webpack_require__.d(
           __webpack_exports__,
           'SITE_TITLE',
@@ -141,11 +148,17 @@
           },
         );
         /* head meta tag data */
-        var SITE_TITLE = 'Visually Lab';
-        var SITE_DESC = 'visualize everything';
+        var DEV = 'development' === 'development';
+        var PROJ_NAME = 'BiiMe-store-web';
+        var SITE_TITLE = 'BiiMe';
+        var SITE_DESC = 'BiiMe';
         var SITE_URL = 'localhost';
-        var FAVICON_PATH = '/static/favicon.ico';
-        var LARGE_ICON_PATH = '/static/large-icon.png';
+        var FAVICON_PATH = DEV
+          ? '/static/favicon-biime-32x32.ico'
+          : '/'.concat(PROJ_NAME, '/static/favicon-biime-32x32.ico');
+        var LARGE_ICON_PATH = DEV
+          ? '/static/large-icon.png'
+          : '/'.concat(PROJ_NAME, '/static/logo_BiiMe@3.png');
         var NAV_TITLE = 'nav title';
 
         /***/
@@ -30428,7 +30441,7 @@ https://github.com/threepointone/glamor/blob/667b480d31b3721a905021b26e1290ce92c
         /***/
       },
 
-    /***/ 3:
+    /***/ 12:
       /*!*******************************!*\
   !*** multi ./pages/index.tsx ***!
   \*******************************/
@@ -30456,6 +30469,6 @@ https://github.com/threepointone/glamor/blob/667b480d31b3721a905021b26e1290ce92c
         /***/
       },
   },
-  [[3, 'static/runtime/webpack.js', 'styles']],
+  [[12, 'static/runtime/webpack.js', 'styles']],
 ]);
 //# sourceMappingURL=index.js.map
