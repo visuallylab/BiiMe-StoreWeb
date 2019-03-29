@@ -6,8 +6,11 @@ const fs = require('fs');
 const path = require('path');
 const Dotenv = require('dotenv-webpack');
 const withBundleAnalyzer = require('@zeit/next-bundle-analyzer');
+const withImages = require('next-images');
 
 require('dotenv').config();
+
+const DEV = process.env.NODE_ENV === 'development';
 
 // Where your antd-custom.less file lives
 const themeVariables = lessToJS(
@@ -21,39 +24,53 @@ if (typeof require !== 'undefined') {
 
 module.exports = withBundleAnalyzer(
   withTypescript(
-    withLess({
-      analyzeServer: ['server', 'both'].includes(process.env.BUNDLE_ANALYZE),
-      analyzeBrowser: ['browser', 'both'].includes(process.env.BUNDLE_ANALYZE),
-      bundleAnalyzerConfig: {
-        server: {
-          analyzerMode: 'static',
-          reportFilename: '../bundles/server.html',
+    withImages(
+      withLess({
+        exportPathMap: function() {
+          return {
+            '/': { page: '/' },
+            '/card/taipei-card': { page: '/card/taipei-card' },
+            '/card/tainan-card': { page: '/card/tainan-card' },
+          };
         },
-        browser: {
-          analyzerMode: 'static',
-          reportFilename: '../bundles/client.html',
+        assetPrefix: !DEV ? `/${process.env.PROJ_NAME}/` : '',
+        analyzeServer: ['server', 'both'].includes(process.env.BUNDLE_ANALYZE),
+        analyzeBrowser: ['browser', 'both'].includes(
+          process.env.BUNDLE_ANALYZE,
+        ),
+        bundleAnalyzerConfig: {
+          server: {
+            analyzerMode: 'static',
+            reportFilename: '../bundles/server.html',
+          },
+          browser: {
+            analyzerMode: 'static',
+            reportFilename: '../bundles/client.html',
+          },
         },
-      },
-      lessLoaderOptions: {
-        javascriptEnabled: true,
-        modifyVars: themeVariables, // make your antd custom effective
-      },
-      webpack: (config, { isServer, buildId, dev }) => {
-        config.plugins = config.plugins || [];
-        config.resolve.extensions = config.resolve.extensions.concat(['.less']);
+        lessLoaderOptions: {
+          javascriptEnabled: true,
+          modifyVars: themeVariables, // make your antd custom effective
+        },
+        webpack: (config, { isServer, buildId, dev }) => {
+          config.plugins = config.plugins || [];
+          config.resolve.extensions = config.resolve.extensions.concat([
+            '.less',
+          ]);
 
-        config.plugins = [
-          ...config.plugins,
+          config.plugins = [
+            ...config.plugins,
 
-          // Read the .env file
-          new Dotenv({
-            path: path.join(__dirname, '.env'),
-            systemvars: true,
-          }),
-        ];
+            // Read the .env file
+            new Dotenv({
+              path: path.join(__dirname, '.env'),
+              systemvars: true,
+            }),
+          ];
 
-        return config;
-      },
-    }),
+          return config;
+        },
+      }),
+    ),
   ),
 );

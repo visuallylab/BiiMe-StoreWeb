@@ -48,7 +48,11 @@ const CardLayout: React.FunctionComponent<TProps> = ({
         alignItems: 'center',
       }}
     >
-      <img src="/static/logo_BiiMe.png" alt="logo" style={{ height: '130%' }} />
+      <img
+        src={require('../static/logo_BiiMe.png')}
+        alt="logo"
+        style={{ height: '130%' }}
+      />
     </Layout.Header>
     <Layout.Content>
       <Row type="flex" justify="center">

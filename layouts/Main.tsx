@@ -14,6 +14,7 @@ import {
   SITE_URL,
 } from '../constants';
 
+import LogoImg from '../static/logo.svg';
 interface IProps {
   title?: string;
   children: React.ReactNode;
@@ -42,11 +43,7 @@ const MainLayout: React.FunctionComponent<IProps> = ({
     </Head>
     <Layout.Header className={`${className} nav-fixed`}>
       <span>
-        <img
-          src="/static/logo.svg"
-          alt="logo"
-          className={`${className} nav-logo`}
-        />
+        <img src={LogoImg} alt="logo" className={`${className} nav-logo`} />
         <span className={`${className} nav-title`}>{NAV_TITLE}</span>
       </span>
       <span>

@@ -1,21 +1,21 @@
 export const discounts = [
   {
-    cover: '/static/cover_comebuy.png',
+    cover: require('./static/cover_comebuy.png'),
     storeName: 'Comebuy',
     discountText: '20% off on bubble tea',
   },
   {
-    cover: '/static/cover_moleskine.jpeg',
+    cover: require('./static/cover_moleskine.jpeg'),
     storeName: 'Moleskine',
     discountText: '5% off on classic notebook',
   },
   {
-    cover: '/static/cover_ikea.jpeg',
+    cover: require('./static/cover_ikea.jpeg'),
     storeName: 'Ikea',
     discountText: '10% off on food',
   },
   {
-    cover: '/static/cover_starbucks.jpeg',
+    cover: require('./static/cover_starbucks.jpeg'),
     storeName: 'Starbucks',
     discountText: 'buy caffe and get one free',
   },
@@ -34,7 +34,7 @@ export const fakeUser = {
 
 export const taipeiCard = {
   name: 'Taipei Card',
-  coverSrc: '/static/taipei_card.png',
+  coverSrc: require('./static/taipei_card.png'),
   description: `description #
   quisque tempus vehicula enim. Duis ut dolor nec augue blandit mattis
   in sed lectus. Cras vehicula tincidunt massa, in gravida libero
@@ -43,7 +43,7 @@ export const taipeiCard = {
 
 export const tainanCard = {
   name: 'Tainan Card',
-  coverSrc: '/static/tainan_card.png',
+  coverSrc: require('./static/tainan_card.png'),
   description: `description #
   quisque tempus vehicula enim. Duis ut dolor nec augue blandit mattis
   in sed lectus. Cras vehicula tincidunt massa, in gravida libero
