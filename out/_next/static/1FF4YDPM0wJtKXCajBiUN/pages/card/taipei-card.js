@@ -1625,41 +1625,37 @@
         var t = e.data;
         return i.a.createElement(
           'div',
-          {
-            className: a.a.dynamic([['2815384710', [t.cover]]]) + ' container',
-          },
+          { className: a.a.dynamic([['454392976', [t.cover]]]) + ' container' },
           i.a.createElement('div', {
-            className: a.a.dynamic([['2815384710', [t.cover]]]) + ' cover',
+            className: a.a.dynamic([['454392976', [t.cover]]]) + ' cover',
           }),
           i.a.createElement(
             'div',
-            { className: a.a.dynamic([['2815384710', [t.cover]]]) },
+            { className: a.a.dynamic([['454392976', [t.cover]]]) },
             i.a.createElement(
               'h3',
-              {
-                className: a.a.dynamic([['2815384710', [t.cover]]]) + ' title',
-              },
+              { className: a.a.dynamic([['454392976', [t.cover]]]) + ' title' },
               t.storeName,
             ),
             i.a.createElement(
               'div',
               {
                 className:
-                  a.a.dynamic([['2815384710', [t.cover]]]) + ' description',
+                  a.a.dynamic([['454392976', [t.cover]]]) + ' description',
               },
               t.discountText,
             ),
           ),
           i.a.createElement(a.a, {
-            styleId: '2815384710',
+            styleId: '454392976',
             css: [
-              '.container.__jsx-style-dynamic-selector{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;color:#7f7f7f;padding:12px 0;border-bottom:solid 0.5px;}',
+              '.container.__jsx-style-dynamic-selector{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;color:#7f7f7f;padding:12px 0;border-bottom:solid 0.5px;line-height:1.2;}',
               '.container.__jsx-style-dynamic-selector:last-child{border-bottom:none;}',
               '.title.__jsx-style-dynamic-selector{color:rgba(0,0,0,0.85);font-weight:500;font-size:16px;margin-bottom:0.3em;}',
               '.description.__jsx-style-dynamic-selector{color:rgba(0,0,0,0.45);font-size:14px;}',
               '.cover.__jsx-style-dynamic-selector{background:white url('.concat(
                 t.cover,
-                ') no-repeat center / contain;border:solid 1px rgba(127,127,127,0.22);margin-right:0.5em;width:80px;height:50px;}',
+                ') no-repeat center / contain;border:solid 1px rgba(127,127,127,0.22);margin-right:0.5em;min-width:80px;min-height:50px;}',
               ),
             ],
             dynamic: [t.cover],
