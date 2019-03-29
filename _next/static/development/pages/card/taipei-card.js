@@ -38,6 +38,9 @@
           /*! ./Status */ './components/Status.tsx',
         );
 
+        var _jsxFileName =
+          '/Users/tse/Code/VisuallyLab/BiiMe-store-web/components/ClaimCard.tsx';
+
         function ClaimCard(_ref) {
           var card = _ref.card;
           return react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(
@@ -53,20 +56,40 @@
                 {
                   alt: card.name,
                   src: card.coverSrc,
+                  __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 18,
+                  },
+                  __self: this,
                 },
               ),
+              __source: {
+                fileName: _jsxFileName,
+                lineNumber: 16,
+              },
+              __self: this,
             },
             react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(
               antd_lib_card__WEBPACK_IMPORTED_MODULE_1___default.a.Meta,
               {
                 title: card.name,
                 description: card.description,
+                __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 20,
+                },
+                __self: this,
               },
             ),
             react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(
               _Status__WEBPACK_IMPORTED_MODULE_3__['default'],
               {
                 status: 'PASS',
+                __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 21,
+                },
+                __self: this,
               },
             ),
           );
@@ -109,6 +132,8 @@
         /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/ __webpack_require__.n(
           react__WEBPACK_IMPORTED_MODULE_1__,
         );
+        var _jsxFileName =
+          '/Users/tse/Code/VisuallyLab/BiiMe-store-web/components/Discounts.tsx';
 
         function Discounts(_ref) {
           var discounts = _ref.discounts;
@@ -116,11 +141,21 @@
             'div',
             {
               className: 'jsx-1825507181' + ' ' + 'container',
+              __source: {
+                fileName: _jsxFileName,
+                lineNumber: 13,
+              },
+              __self: this,
             },
             react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
               'h3',
               {
                 className: 'jsx-1825507181',
+                __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 14,
+                },
+                __self: this,
               },
               'Discounts',
             ),
@@ -130,6 +165,11 @@
                 {
                   key: ''.concat(idx, ': ').concat(discount.storeName),
                   data: discount,
+                  __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 16,
+                  },
+                  __self: this,
                 },
               );
             }),
@@ -138,7 +178,8 @@
               {
                 styleId: '1825507181',
                 css:
-                  '.container.jsx-1825507181{margin:16px 0;padding:16px;border-radius:10px;background-color:white;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy90c2UvQ29kZS9WaXN1YWxseUxhYi9CaWlNZS1zdG9yZS13ZWIvY29tcG9uZW50cy9EaXNjb3VudHMudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQWlCa0IsQUFHeUIsY0FDRCxhQUNNLG1CQUNJLHVCQUN6QiIsImZpbGUiOiIvVXNlcnMvdHNlL0NvZGUvVmlzdWFsbHlMYWIvQmlpTWUtc3RvcmUtd2ViL2NvbXBvbmVudHMvRGlzY291bnRzLnRzeCIsInNvdXJjZXNDb250ZW50IjpbInR5cGUgVERpc2NvdW50ID0ge1xuICBjb3Zlcjogc3RyaW5nO1xuICBzdG9yZU5hbWU6IHN0cmluZztcbiAgZGlzY291bnRUZXh0OiBzdHJpbmc7XG59O1xuXG50eXBlIFRQcm9wcyA9IHtcbiAgZGlzY291bnRzOiBURGlzY291bnRbXTtcbn07XG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIERpc2NvdW50cyh7IGRpc2NvdW50cyB9OiBUUHJvcHMpIHtcbiAgcmV0dXJuIChcbiAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbnRhaW5lclwiPlxuICAgICAgPGgzPkRpc2NvdW50czwvaDM+XG4gICAgICB7ZGlzY291bnRzLm1hcCgoZGlzY291bnQsIGlkeCkgPT4gKFxuICAgICAgICA8RGlzY291bnQga2V5PXtgJHtpZHh9OiAke2Rpc2NvdW50LnN0b3JlTmFtZX1gfSBkYXRhPXtkaXNjb3VudH0gLz5cbiAgICAgICkpfVxuICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICAuY29udGFpbmVyIHtcbiAgICAgICAgICBtYXJnaW46IDE2cHggMDtcbiAgICAgICAgICBwYWRkaW5nOiAxNnB4O1xuICAgICAgICAgIGJvcmRlci1yYWRpdXM6IDEwcHg7XG4gICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogd2hpdGU7XG4gICAgICAgIH1cbiAgICAgIGB9PC9zdHlsZT5cbiAgICA8L2Rpdj5cbiAgKTtcbn1cblxuZXhwb3J0IGZ1bmN0aW9uIERpc2NvdW50KHsgZGF0YSB9OiB7IGRhdGE6IFREaXNjb3VudCB9KSB7XG4gIHJldHVybiAoXG4gICAgPGRpdiBjbGFzc05hbWU9XCJjb250YWluZXJcIj5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY292ZXJcIiAvPlxuICAgICAgPGRpdj5cbiAgICAgICAgPGgzIGNsYXNzTmFtZT1cInRpdGxlXCI+e2RhdGEuc3RvcmVOYW1lfTwvaDM+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZGVzY3JpcHRpb25cIj57ZGF0YS5kaXNjb3VudFRleHR9PC9kaXY+XG4gICAgICA8L2Rpdj5cbiAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgLmNvbnRhaW5lciB7XG4gICAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICAgIGNvbG9yOiAjN2Y3ZjdmO1xuICAgICAgICAgIHBhZGRpbmc6IDEycHggMDtcbiAgICAgICAgICBib3JkZXItYm90dG9tOiBzb2xpZCAwLjVweDtcbiAgICAgICAgfVxuICAgICAgICAuY29udGFpbmVyOmxhc3QtY2hpbGQge1xuICAgICAgICAgIGJvcmRlci1ib3R0b206IG5vbmU7XG4gICAgICAgIH1cblxuICAgICAgICAudGl0bGUge1xuICAgICAgICAgIGNvbG9yOiByZ2JhKDAsIDAsIDAsIDAuODUpO1xuICAgICAgICAgIGZvbnQtd2VpZ2h0OiA1MDA7XG4gICAgICAgICAgZm9udC1zaXplOiAxNnB4O1xuICAgICAgICAgIG1hcmdpbi1ib3R0b206IDAuM2VtO1xuICAgICAgICB9XG5cbiAgICAgICAgLmRlc2NyaXB0aW9uIHtcbiAgICAgICAgICBjb2xvcjogcmdiYSgwLCAwLCAwLCAwLjQ1KTtcbiAgICAgICAgICBmb250LXNpemU6IDE0cHg7XG4gICAgICAgIH1cblxuICAgICAgICAuY292ZXIge1xuICAgICAgICAgIGJhY2tncm91bmQ6IHdoaXRlIHVybCgke2RhdGEuY292ZXJ9KSBuby1yZXBlYXQgY2VudGVyIC8gY29udGFpbjtcbiAgICAgICAgICBib3JkZXI6IHNvbGlkIDFweCByZ2JhKDEyNywgMTI3LCAxMjcsIDAuMjIpO1xuICAgICAgICAgIG1hcmdpbi1yaWdodDogMC41ZW07XG4gICAgICAgICAgd2lkdGg6IDgwcHg7XG4gICAgICAgICAgaGVpZ2h0OiA1MHB4O1xuICAgICAgICB9XG4gICAgICBgfTwvc3R5bGU+XG4gICAgPC9kaXY+XG4gICk7XG59XG4iXX0= */\n/*@ sourceURL=/Users/tse/Code/VisuallyLab/BiiMe-store-web/components/Discounts.tsx */',
+                  '.container.jsx-1825507181{margin:16px 0;padding:16px;border-radius:10px;background-color:white;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy90c2UvQ29kZS9WaXN1YWxseUxhYi9CaWlNZS1zdG9yZS13ZWIvY29tcG9uZW50cy9EaXNjb3VudHMudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQWlCa0IsQUFHeUIsY0FDRCxhQUNNLG1CQUNJLHVCQUN6QiIsImZpbGUiOiIvVXNlcnMvdHNlL0NvZGUvVmlzdWFsbHlMYWIvQmlpTWUtc3RvcmUtd2ViL2NvbXBvbmVudHMvRGlzY291bnRzLnRzeCIsInNvdXJjZXNDb250ZW50IjpbInR5cGUgVERpc2NvdW50ID0ge1xuICBjb3Zlcjogc3RyaW5nO1xuICBzdG9yZU5hbWU6IHN0cmluZztcbiAgZGlzY291bnRUZXh0OiBzdHJpbmc7XG59O1xuXG50eXBlIFRQcm9wcyA9IHtcbiAgZGlzY291bnRzOiBURGlzY291bnRbXTtcbn07XG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIERpc2NvdW50cyh7IGRpc2NvdW50cyB9OiBUUHJvcHMpIHtcbiAgcmV0dXJuIChcbiAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbnRhaW5lclwiPlxuICAgICAgPGgzPkRpc2NvdW50czwvaDM+XG4gICAgICB7ZGlzY291bnRzLm1hcCgoZGlzY291bnQsIGlkeCkgPT4gKFxuICAgICAgICA8RGlzY291bnQga2V5PXtgJHtpZHh9OiAke2Rpc2NvdW50LnN0b3JlTmFtZX1gfSBkYXRhPXtkaXNjb3VudH0gLz5cbiAgICAgICkpfVxuICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICAuY29udGFpbmVyIHtcbiAgICAgICAgICBtYXJnaW46IDE2cHggMDtcbiAgICAgICAgICBwYWRkaW5nOiAxNnB4O1xuICAgICAgICAgIGJvcmRlci1yYWRpdXM6IDEwcHg7XG4gICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogd2hpdGU7XG4gICAgICAgIH1cbiAgICAgIGB9PC9zdHlsZT5cbiAgICA8L2Rpdj5cbiAgKTtcbn1cblxuZXhwb3J0IGZ1bmN0aW9uIERpc2NvdW50KHsgZGF0YSB9OiB7IGRhdGE6IFREaXNjb3VudCB9KSB7XG4gIHJldHVybiAoXG4gICAgPGRpdiBjbGFzc05hbWU9XCJjb250YWluZXJcIj5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY292ZXJcIiAvPlxuICAgICAgPGRpdj5cbiAgICAgICAgPGgzIGNsYXNzTmFtZT1cInRpdGxlXCI+e2RhdGEuc3RvcmVOYW1lfTwvaDM+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZGVzY3JpcHRpb25cIj57ZGF0YS5kaXNjb3VudFRleHR9PC9kaXY+XG4gICAgICA8L2Rpdj5cbiAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgLmNvbnRhaW5lciB7XG4gICAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICAgIGNvbG9yOiAjN2Y3ZjdmO1xuICAgICAgICAgIHBhZGRpbmc6IDEycHggMDtcbiAgICAgICAgICBib3JkZXItYm90dG9tOiBzb2xpZCAwLjVweDtcbiAgICAgICAgICBsaW5lLWhlaWdodDogMS4yO1xuICAgICAgICB9XG4gICAgICAgIC5jb250YWluZXI6bGFzdC1jaGlsZCB7XG4gICAgICAgICAgYm9yZGVyLWJvdHRvbTogbm9uZTtcbiAgICAgICAgfVxuXG4gICAgICAgIC50aXRsZSB7XG4gICAgICAgICAgY29sb3I6IHJnYmEoMCwgMCwgMCwgMC44NSk7XG4gICAgICAgICAgZm9udC13ZWlnaHQ6IDUwMDtcbiAgICAgICAgICBmb250LXNpemU6IDE2cHg7XG4gICAgICAgICAgbWFyZ2luLWJvdHRvbTogMC4zZW07XG4gICAgICAgIH1cblxuICAgICAgICAuZGVzY3JpcHRpb24ge1xuICAgICAgICAgIGNvbG9yOiByZ2JhKDAsIDAsIDAsIDAuNDUpO1xuICAgICAgICAgIGZvbnQtc2l6ZTogMTRweDtcbiAgICAgICAgfVxuXG4gICAgICAgIC5jb3ZlciB7XG4gICAgICAgICAgYmFja2dyb3VuZDogd2hpdGUgdXJsKCR7ZGF0YS5jb3Zlcn0pIG5vLXJlcGVhdCBjZW50ZXIgLyBjb250YWluO1xuICAgICAgICAgIGJvcmRlcjogc29saWQgMXB4IHJnYmEoMTI3LCAxMjcsIDEyNywgMC4yMik7XG4gICAgICAgICAgbWFyZ2luLXJpZ2h0OiAwLjVlbTtcbiAgICAgICAgICBtaW4td2lkdGg6IDgwcHg7XG4gICAgICAgICAgbWluLWhlaWdodDogNTBweDtcbiAgICAgICAgfVxuICAgICAgYH08L3N0eWxlPlxuICAgIDwvZGl2PlxuICApO1xufVxuIl19 */\n/*@ sourceURL=/Users/tse/Code/VisuallyLab/BiiMe-store-web/components/Discounts.tsx */',
+                __self: this,
               },
             ),
           );
@@ -150,35 +191,55 @@
             {
               className:
                 styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic(
-                  [['2815384710', [data.cover]]],
+                  [['454392976', [data.cover]]],
                 ) +
                 ' ' +
                 'container',
+              __source: {
+                fileName: _jsxFileName,
+                lineNumber: 32,
+              },
+              __self: this,
             },
             react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement('div', {
               className:
                 styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic(
-                  [['2815384710', [data.cover]]],
+                  [['454392976', [data.cover]]],
                 ) +
                 ' ' +
                 'cover',
+              __source: {
+                fileName: _jsxFileName,
+                lineNumber: 33,
+              },
+              __self: this,
             }),
             react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
               'div',
               {
                 className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic(
-                  [['2815384710', [data.cover]]],
+                  [['454392976', [data.cover]]],
                 ),
+                __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 34,
+                },
+                __self: this,
               },
               react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
                 'h3',
                 {
                   className:
                     styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic(
-                      [['2815384710', [data.cover]]],
+                      [['454392976', [data.cover]]],
                     ) +
                     ' ' +
                     'title',
+                  __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 35,
+                  },
+                  __self: this,
                 },
                 data.storeName,
               ),
@@ -187,10 +248,15 @@
                 {
                   className:
                     styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic(
-                      [['2815384710', [data.cover]]],
+                      [['454392976', [data.cover]]],
                     ) +
                     ' ' +
                     'description',
+                  __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 36,
+                  },
+                  __self: this,
                 },
                 data.discountText,
               ),
@@ -198,12 +264,13 @@
             react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
               styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a,
               {
-                styleId: '2815384710',
-                css: '.container.__jsx-style-dynamic-selector{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;color:#7f7f7f;padding:12px 0;border-bottom:solid 0.5px;}.container.__jsx-style-dynamic-selector:last-child{border-bottom:none;}.title.__jsx-style-dynamic-selector{color:rgba(0,0,0,0.85);font-weight:500;font-size:16px;margin-bottom:0.3em;}.description.__jsx-style-dynamic-selector{color:rgba(0,0,0,0.45);font-size:14px;}.cover.__jsx-style-dynamic-selector{background:white url('.concat(
+                styleId: '454392976',
+                css: '.container.__jsx-style-dynamic-selector{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;color:#7f7f7f;padding:12px 0;border-bottom:solid 0.5px;line-height:1.2;}.container.__jsx-style-dynamic-selector:last-child{border-bottom:none;}.title.__jsx-style-dynamic-selector{color:rgba(0,0,0,0.85);font-weight:500;font-size:16px;margin-bottom:0.3em;}.description.__jsx-style-dynamic-selector{color:rgba(0,0,0,0.45);font-size:14px;}.cover.__jsx-style-dynamic-selector{background:white url('.concat(
                   data.cover,
-                  ') no-repeat center / contain;border:solid 1px rgba(127,127,127,0.22);margin-right:0.5em;width:80px;height:50px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy90c2UvQ29kZS9WaXN1YWxseUxhYi9CaWlNZS1zdG9yZS13ZWIvY29tcG9uZW50cy9EaXNjb3VudHMudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQXFDa0IsQUFHd0IsQUFPTSxBQUlPLEFBT0EsQUFLb0QsbUJBZmhGLElBSWtCLEFBT0QsZUFDakIsQ0FQaUIsZUFDSyxvQkFiRCxBQWNyQixJQVM2Qyx3Q0FDeEIsbUJBQ1IsV0FDQyxZQUNkLE9BMUJnQixjQUNDLGVBQ1csMEJBQzVCIiwiZmlsZSI6Ii9Vc2Vycy90c2UvQ29kZS9WaXN1YWxseUxhYi9CaWlNZS1zdG9yZS13ZWIvY29tcG9uZW50cy9EaXNjb3VudHMudHN4Iiwic291cmNlc0NvbnRlbnQiOlsidHlwZSBURGlzY291bnQgPSB7XG4gIGNvdmVyOiBzdHJpbmc7XG4gIHN0b3JlTmFtZTogc3RyaW5nO1xuICBkaXNjb3VudFRleHQ6IHN0cmluZztcbn07XG5cbnR5cGUgVFByb3BzID0ge1xuICBkaXNjb3VudHM6IFREaXNjb3VudFtdO1xufTtcblxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gRGlzY291bnRzKHsgZGlzY291bnRzIH06IFRQcm9wcykge1xuICByZXR1cm4gKFxuICAgIDxkaXYgY2xhc3NOYW1lPVwiY29udGFpbmVyXCI+XG4gICAgICA8aDM+RGlzY291bnRzPC9oMz5cbiAgICAgIHtkaXNjb3VudHMubWFwKChkaXNjb3VudCwgaWR4KSA9PiAoXG4gICAgICAgIDxEaXNjb3VudCBrZXk9e2Ake2lkeH06ICR7ZGlzY291bnQuc3RvcmVOYW1lfWB9IGRhdGE9e2Rpc2NvdW50fSAvPlxuICAgICAgKSl9XG4gICAgICA8c3R5bGUganN4PntgXG4gICAgICAgIC5jb250YWluZXIge1xuICAgICAgICAgIG1hcmdpbjogMTZweCAwO1xuICAgICAgICAgIHBhZGRpbmc6IDE2cHg7XG4gICAgICAgICAgYm9yZGVyLXJhZGl1czogMTBweDtcbiAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiB3aGl0ZTtcbiAgICAgICAgfVxuICAgICAgYH08L3N0eWxlPlxuICAgIDwvZGl2PlxuICApO1xufVxuXG5leHBvcnQgZnVuY3Rpb24gRGlzY291bnQoeyBkYXRhIH06IHsgZGF0YTogVERpc2NvdW50IH0pIHtcbiAgcmV0dXJuIChcbiAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbnRhaW5lclwiPlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb3ZlclwiIC8+XG4gICAgICA8ZGl2PlxuICAgICAgICA8aDMgY2xhc3NOYW1lPVwidGl0bGVcIj57ZGF0YS5zdG9yZU5hbWV9PC9oMz5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJkZXNjcmlwdGlvblwiPntkYXRhLmRpc2NvdW50VGV4dH08L2Rpdj5cbiAgICAgIDwvZGl2PlxuICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICAuY29udGFpbmVyIHtcbiAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgICAgY29sb3I6ICM3ZjdmN2Y7XG4gICAgICAgICAgcGFkZGluZzogMTJweCAwO1xuICAgICAgICAgIGJvcmRlci1ib3R0b206IHNvbGlkIDAuNXB4O1xuICAgICAgICB9XG4gICAgICAgIC5jb250YWluZXI6bGFzdC1jaGlsZCB7XG4gICAgICAgICAgYm9yZGVyLWJvdHRvbTogbm9uZTtcbiAgICAgICAgfVxuXG4gICAgICAgIC50aXRsZSB7XG4gICAgICAgICAgY29sb3I6IHJnYmEoMCwgMCwgMCwgMC44NSk7XG4gICAgICAgICAgZm9udC13ZWlnaHQ6IDUwMDtcbiAgICAgICAgICBmb250LXNpemU6IDE2cHg7XG4gICAgICAgICAgbWFyZ2luLWJvdHRvbTogMC4zZW07XG4gICAgICAgIH1cblxuICAgICAgICAuZGVzY3JpcHRpb24ge1xuICAgICAgICAgIGNvbG9yOiByZ2JhKDAsIDAsIDAsIDAuNDUpO1xuICAgICAgICAgIGZvbnQtc2l6ZTogMTRweDtcbiAgICAgICAgfVxuXG4gICAgICAgIC5jb3ZlciB7XG4gICAgICAgICAgYmFja2dyb3VuZDogd2hpdGUgdXJsKCR7ZGF0YS5jb3Zlcn0pIG5vLXJlcGVhdCBjZW50ZXIgLyBjb250YWluO1xuICAgICAgICAgIGJvcmRlcjogc29saWQgMXB4IHJnYmEoMTI3LCAxMjcsIDEyNywgMC4yMik7XG4gICAgICAgICAgbWFyZ2luLXJpZ2h0OiAwLjVlbTtcbiAgICAgICAgICB3aWR0aDogODBweDtcbiAgICAgICAgICBoZWlnaHQ6IDUwcHg7XG4gICAgICAgIH1cbiAgICAgIGB9PC9zdHlsZT5cbiAgICA8L2Rpdj5cbiAgKTtcbn1cbiJdfQ== */\n/*@ sourceURL=/Users/tse/Code/VisuallyLab/BiiMe-store-web/components/Discounts.tsx */',
+                  ') no-repeat center / contain;border:solid 1px rgba(127,127,127,0.22);margin-right:0.5em;min-width:80px;min-height:50px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy90c2UvQ29kZS9WaXN1YWxseUxhYi9CaWlNZS1zdG9yZS13ZWIvY29tcG9uZW50cy9EaXNjb3VudHMudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQXFDa0IsQUFHd0IsQUFRTSxBQUlPLEFBT0EsQUFLb0QsbUJBZmhGLElBSWtCLEFBT0QsZUFDakIsQ0FQaUIsZUFDSyxvQkFkRCxBQWVyQixJQVM2Qyx3Q0FDeEIsbUJBQ0osZUFDQyxlQTFCRixDQTJCaEIsYUExQmlCLGVBQ1csMEJBQ1YsZ0JBQ2xCIiwiZmlsZSI6Ii9Vc2Vycy90c2UvQ29kZS9WaXN1YWxseUxhYi9CaWlNZS1zdG9yZS13ZWIvY29tcG9uZW50cy9EaXNjb3VudHMudHN4Iiwic291cmNlc0NvbnRlbnQiOlsidHlwZSBURGlzY291bnQgPSB7XG4gIGNvdmVyOiBzdHJpbmc7XG4gIHN0b3JlTmFtZTogc3RyaW5nO1xuICBkaXNjb3VudFRleHQ6IHN0cmluZztcbn07XG5cbnR5cGUgVFByb3BzID0ge1xuICBkaXNjb3VudHM6IFREaXNjb3VudFtdO1xufTtcblxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gRGlzY291bnRzKHsgZGlzY291bnRzIH06IFRQcm9wcykge1xuICByZXR1cm4gKFxuICAgIDxkaXYgY2xhc3NOYW1lPVwiY29udGFpbmVyXCI+XG4gICAgICA8aDM+RGlzY291bnRzPC9oMz5cbiAgICAgIHtkaXNjb3VudHMubWFwKChkaXNjb3VudCwgaWR4KSA9PiAoXG4gICAgICAgIDxEaXNjb3VudCBrZXk9e2Ake2lkeH06ICR7ZGlzY291bnQuc3RvcmVOYW1lfWB9IGRhdGE9e2Rpc2NvdW50fSAvPlxuICAgICAgKSl9XG4gICAgICA8c3R5bGUganN4PntgXG4gICAgICAgIC5jb250YWluZXIge1xuICAgICAgICAgIG1hcmdpbjogMTZweCAwO1xuICAgICAgICAgIHBhZGRpbmc6IDE2cHg7XG4gICAgICAgICAgYm9yZGVyLXJhZGl1czogMTBweDtcbiAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiB3aGl0ZTtcbiAgICAgICAgfVxuICAgICAgYH08L3N0eWxlPlxuICAgIDwvZGl2PlxuICApO1xufVxuXG5leHBvcnQgZnVuY3Rpb24gRGlzY291bnQoeyBkYXRhIH06IHsgZGF0YTogVERpc2NvdW50IH0pIHtcbiAgcmV0dXJuIChcbiAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbnRhaW5lclwiPlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb3ZlclwiIC8+XG4gICAgICA8ZGl2PlxuICAgICAgICA8aDMgY2xhc3NOYW1lPVwidGl0bGVcIj57ZGF0YS5zdG9yZU5hbWV9PC9oMz5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJkZXNjcmlwdGlvblwiPntkYXRhLmRpc2NvdW50VGV4dH08L2Rpdj5cbiAgICAgIDwvZGl2PlxuICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICAuY29udGFpbmVyIHtcbiAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgICAgY29sb3I6ICM3ZjdmN2Y7XG4gICAgICAgICAgcGFkZGluZzogMTJweCAwO1xuICAgICAgICAgIGJvcmRlci1ib3R0b206IHNvbGlkIDAuNXB4O1xuICAgICAgICAgIGxpbmUtaGVpZ2h0OiAxLjI7XG4gICAgICAgIH1cbiAgICAgICAgLmNvbnRhaW5lcjpsYXN0LWNoaWxkIHtcbiAgICAgICAgICBib3JkZXItYm90dG9tOiBub25lO1xuICAgICAgICB9XG5cbiAgICAgICAgLnRpdGxlIHtcbiAgICAgICAgICBjb2xvcjogcmdiYSgwLCAwLCAwLCAwLjg1KTtcbiAgICAgICAgICBmb250LXdlaWdodDogNTAwO1xuICAgICAgICAgIGZvbnQtc2l6ZTogMTZweDtcbiAgICAgICAgICBtYXJnaW4tYm90dG9tOiAwLjNlbTtcbiAgICAgICAgfVxuXG4gICAgICAgIC5kZXNjcmlwdGlvbiB7XG4gICAgICAgICAgY29sb3I6IHJnYmEoMCwgMCwgMCwgMC40NSk7XG4gICAgICAgICAgZm9udC1zaXplOiAxNHB4O1xuICAgICAgICB9XG5cbiAgICAgICAgLmNvdmVyIHtcbiAgICAgICAgICBiYWNrZ3JvdW5kOiB3aGl0ZSB1cmwoJHtkYXRhLmNvdmVyfSkgbm8tcmVwZWF0IGNlbnRlciAvIGNvbnRhaW47XG4gICAgICAgICAgYm9yZGVyOiBzb2xpZCAxcHggcmdiYSgxMjcsIDEyNywgMTI3LCAwLjIyKTtcbiAgICAgICAgICBtYXJnaW4tcmlnaHQ6IDAuNWVtO1xuICAgICAgICAgIG1pbi13aWR0aDogODBweDtcbiAgICAgICAgICBtaW4taGVpZ2h0OiA1MHB4O1xuICAgICAgICB9XG4gICAgICBgfTwvc3R5bGU+XG4gICAgPC9kaXY+XG4gICk7XG59XG4iXX0= */\n/*@ sourceURL=/Users/tse/Code/VisuallyLab/BiiMe-store-web/components/Discounts.tsx */',
                 ),
                 dynamic: [data.cover],
+                __self: this,
               },
             ),
           );
@@ -252,17 +319,30 @@
           react__WEBPACK_IMPORTED_MODULE_3__,
         );
 
+        var _jsxFileName =
+          '/Users/tse/Code/VisuallyLab/BiiMe-store-web/components/Profile.tsx';
+
         function Profile(_ref) {
           var user = _ref.user;
           return react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(
             'div',
             {
               className: 'jsx-502736414' + ' ' + 'container',
+              __source: {
+                fileName: _jsxFileName,
+                lineNumber: 20,
+              },
+              __self: this,
             },
             react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(
               'div',
               {
                 className: 'jsx-502736414' + ' ' + 'avatar-container',
+                __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 21,
+                },
+                __self: this,
               },
               react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(
                 antd_lib_avatar__WEBPACK_IMPORTED_MODULE_1___default.a,
@@ -270,6 +350,11 @@
                   src:
                     'https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png',
                   size: 80,
+                  __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 22,
+                  },
+                  __self: this,
                 },
               ),
             ),
@@ -277,11 +362,21 @@
               'div',
               {
                 className: 'jsx-502736414' + ' ' + 'item',
+                __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 27,
+                },
+                __self: this,
               },
               react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(
                 'span',
                 {
                   className: 'jsx-502736414' + ' ' + 'title',
+                  __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 28,
+                  },
+                  __self: this,
                 },
                 'Did:\xA0',
               ),
@@ -289,6 +384,11 @@
                 'span',
                 {
                   className: 'jsx-502736414',
+                  __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 29,
+                  },
+                  __self: this,
                 },
                 user.did,
               ),
@@ -297,11 +397,21 @@
               'div',
               {
                 className: 'jsx-502736414' + ' ' + 'item',
+                __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 31,
+                },
+                __self: this,
               },
               react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(
                 'span',
                 {
                   className: 'jsx-502736414' + ' ' + 'title',
+                  __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 32,
+                  },
+                  __self: this,
                 },
                 'Name:\xA0',
               ),
@@ -309,6 +419,11 @@
                 'span',
                 {
                   className: 'jsx-502736414',
+                  __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 33,
+                  },
+                  __self: this,
                 },
                 user.name,
               ),
@@ -317,11 +432,21 @@
               'div',
               {
                 className: 'jsx-502736414' + ' ' + 'item',
+                __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 35,
+                },
+                __self: this,
               },
               react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(
                 'span',
                 {
                   className: 'jsx-502736414' + ' ' + 'title',
+                  __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 36,
+                  },
+                  __self: this,
                 },
                 'Certification Name:\xA0',
               ),
@@ -329,6 +454,11 @@
                 'span',
                 {
                   className: 'jsx-502736414',
+                  __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 37,
+                  },
+                  __self: this,
                 },
                 user.certificationName,
               ),
@@ -337,11 +467,21 @@
               'div',
               {
                 className: 'jsx-502736414' + ' ' + 'item',
+                __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 39,
+                },
+                __self: this,
               },
               react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(
                 'span',
                 {
                   className: 'jsx-502736414' + ' ' + 'title',
+                  __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 40,
+                  },
+                  __self: this,
                 },
                 'Certificated At:\xA0',
               ),
@@ -349,6 +489,11 @@
                 'span',
                 {
                   className: 'jsx-502736414',
+                  __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 41,
+                  },
+                  __self: this,
                 },
                 user.certificatedAt,
               ),
@@ -357,11 +502,21 @@
               'div',
               {
                 className: 'jsx-502736414' + ' ' + 'item',
+                __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 43,
+                },
+                __self: this,
               },
               react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(
                 'span',
                 {
                   className: 'jsx-502736414' + ' ' + 'title',
+                  __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 44,
+                  },
+                  __self: this,
                 },
                 'Expired At:\xA0',
               ),
@@ -369,6 +524,11 @@
                 'span',
                 {
                   className: 'jsx-502736414',
+                  __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 45,
+                  },
+                  __self: this,
                 },
                 user.expiredAt,
               ),
@@ -377,11 +537,21 @@
               'div',
               {
                 className: 'jsx-502736414' + ' ' + 'item',
+                __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 47,
+                },
+                __self: this,
               },
               react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(
                 'span',
                 {
                   className: 'jsx-502736414' + ' ' + 'title',
+                  __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 48,
+                  },
+                  __self: this,
                 },
                 'Issuer Name:\xA0',
               ),
@@ -389,6 +559,11 @@
                 'span',
                 {
                   className: 'jsx-502736414',
+                  __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 49,
+                  },
+                  __self: this,
                 },
                 user.issuerName,
               ),
@@ -397,11 +572,21 @@
               'div',
               {
                 className: 'jsx-502736414' + ' ' + 'item',
+                __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 51,
+                },
+                __self: this,
               },
               react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(
                 'span',
                 {
                   className: 'jsx-502736414' + ' ' + 'title',
+                  __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 52,
+                  },
+                  __self: this,
                 },
                 'Image Checksum:\xA0',
               ),
@@ -409,6 +594,11 @@
                 'span',
                 {
                   className: 'jsx-502736414',
+                  __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 53,
+                  },
+                  __self: this,
                 },
                 user.imageChecksum,
               ),
@@ -417,11 +607,21 @@
               'div',
               {
                 className: 'jsx-502736414' + ' ' + 'item',
+                __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 55,
+                },
+                __self: this,
               },
               react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(
                 'span',
                 {
                   className: 'jsx-502736414' + ' ' + 'title',
+                  __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 56,
+                  },
+                  __self: this,
                 },
                 'Transaction Hash:\xA0',
               ),
@@ -429,6 +629,11 @@
                 'span',
                 {
                   className: 'jsx-502736414',
+                  __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 57,
+                  },
+                  __self: this,
                 },
                 user.transactionHash,
               ),
@@ -439,6 +644,7 @@
                 styleId: '502736414',
                 css:
                   '.container.jsx-502736414{margin:0 0 16px;padding:16px;border-radius:10px;background-color:white;}.title.jsx-502736414{font-weight:500;font-size:16px;}.item.jsx-502736414{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;color:#7f7f7f;padding:12px 0;font-size:14px;border-bottom:solid 0.5px;}.item.jsx-502736414:last-child{border-bottom:none;}.avatar-container.jsx-502736414{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;margin:0.5em 0;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy90c2UvQ29kZS9WaXN1YWxseUxhYi9CaWlNZS1zdG9yZS13ZWIvY29tcG9uZW50cy9Qcm9maWxlLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUEwRGtCLEFBRzJCLEFBT0EsQUFLSCxBQVNNLEFBSU4sZ0JBeEJBLEFBT0UsR0FjakIsVUFwQnFCLEVBT3JCLGlCQU55Qix1QkFDekIsR0FTcUIsQUFhSSw2RkFaVCxNQWFDLFFBWkEsT0FhakIsUUFaaUIsZUFDVywwQkFDNUIiLCJmaWxlIjoiL1VzZXJzL3RzZS9Db2RlL1Zpc3VhbGx5TGFiL0JpaU1lLXN0b3JlLXdlYi9jb21wb25lbnRzL1Byb2ZpbGUudHN4Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgQXZhdGFyIH0gZnJvbSAnYW50ZCc7XG5cbmV4cG9ydCB0eXBlIFRVc2VyID0ge1xuICBkaWQ6IHN0cmluZztcbiAgbmFtZTogc3RyaW5nO1xuICBjZXJ0aWZpY2F0aW9uTmFtZTogc3RyaW5nO1xuICBjZXJ0aWZpY2F0ZWRBdDogc3RyaW5nO1xuICBleHBpcmVkQXQ6IHN0cmluZztcbiAgaXNzdWVyTmFtZTogc3RyaW5nO1xuICB0cmFuc2FjdGlvbkhhc2g6IHN0cmluZztcbiAgaW1hZ2VDaGVja3N1bTogc3RyaW5nO1xufTtcblxudHlwZSBUUHJvcHMgPSB7XG4gIHVzZXI6IFRVc2VyO1xufTtcblxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gUHJvZmlsZSh7IHVzZXIgfTogVFByb3BzKSB7XG4gIHJldHVybiAoXG4gICAgPGRpdiBjbGFzc05hbWU9XCJjb250YWluZXJcIj5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwiYXZhdGFyLWNvbnRhaW5lclwiPlxuICAgICAgICA8QXZhdGFyXG4gICAgICAgICAgc3JjPVwiaHR0cHM6Ly96b3MuYWxpcGF5b2JqZWN0cy5jb20vcm1zcG9ydGFsL09EVExjanhBZnZxYnhIblZYQ1lYLnBuZ1wiXG4gICAgICAgICAgc2l6ZT17ODB9XG4gICAgICAgIC8+XG4gICAgICA8L2Rpdj5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwiaXRlbVwiPlxuICAgICAgICA8c3BhbiBjbGFzc05hbWU9XCJ0aXRsZVwiPkRpZDombmJzcDs8L3NwYW4+XG4gICAgICAgIDxzcGFuPnt1c2VyLmRpZH08L3NwYW4+XG4gICAgICA8L2Rpdj5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwiaXRlbVwiPlxuICAgICAgICA8c3BhbiBjbGFzc05hbWU9XCJ0aXRsZVwiPk5hbWU6Jm5ic3A7PC9zcGFuPlxuICAgICAgICA8c3Bhbj57dXNlci5uYW1lfTwvc3Bhbj5cbiAgICAgIDwvZGl2PlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJpdGVtXCI+XG4gICAgICAgIDxzcGFuIGNsYXNzTmFtZT1cInRpdGxlXCI+Q2VydGlmaWNhdGlvbiBOYW1lOiZuYnNwOzwvc3Bhbj5cbiAgICAgICAgPHNwYW4+e3VzZXIuY2VydGlmaWNhdGlvbk5hbWV9PC9zcGFuPlxuICAgICAgPC9kaXY+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cIml0ZW1cIj5cbiAgICAgICAgPHNwYW4gY2xhc3NOYW1lPVwidGl0bGVcIj5DZXJ0aWZpY2F0ZWQgQXQ6Jm5ic3A7PC9zcGFuPlxuICAgICAgICA8c3Bhbj57dXNlci5jZXJ0aWZpY2F0ZWRBdH08L3NwYW4+XG4gICAgICA8L2Rpdj5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwiaXRlbVwiPlxuICAgICAgICA8c3BhbiBjbGFzc05hbWU9XCJ0aXRsZVwiPkV4cGlyZWQgQXQ6Jm5ic3A7PC9zcGFuPlxuICAgICAgICA8c3Bhbj57dXNlci5leHBpcmVkQXR9PC9zcGFuPlxuICAgICAgPC9kaXY+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cIml0ZW1cIj5cbiAgICAgICAgPHNwYW4gY2xhc3NOYW1lPVwidGl0bGVcIj5Jc3N1ZXIgTmFtZTombmJzcDs8L3NwYW4+XG4gICAgICAgIDxzcGFuPnt1c2VyLmlzc3Vlck5hbWV9PC9zcGFuPlxuICAgICAgPC9kaXY+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cIml0ZW1cIj5cbiAgICAgICAgPHNwYW4gY2xhc3NOYW1lPVwidGl0bGVcIj5JbWFnZSBDaGVja3N1bTombmJzcDs8L3NwYW4+XG4gICAgICAgIDxzcGFuPnt1c2VyLmltYWdlQ2hlY2tzdW19PC9zcGFuPlxuICAgICAgPC9kaXY+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cIml0ZW1cIj5cbiAgICAgICAgPHNwYW4gY2xhc3NOYW1lPVwidGl0bGVcIj5UcmFuc2FjdGlvbiBIYXNoOiZuYnNwOzwvc3Bhbj5cbiAgICAgICAgPHNwYW4+e3VzZXIudHJhbnNhY3Rpb25IYXNofTwvc3Bhbj5cbiAgICAgIDwvZGl2PlxuICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICAuY29udGFpbmVyIHtcbiAgICAgICAgICBtYXJnaW46IDAgMCAxNnB4O1xuICAgICAgICAgIHBhZGRpbmc6IDE2cHg7XG4gICAgICAgICAgYm9yZGVyLXJhZGl1czogMTBweDtcbiAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiB3aGl0ZTtcbiAgICAgICAgfVxuXG4gICAgICAgIC50aXRsZSB7XG4gICAgICAgICAgZm9udC13ZWlnaHQ6IDUwMDtcbiAgICAgICAgICBmb250LXNpemU6IDE2cHg7XG4gICAgICAgIH1cblxuICAgICAgICAuaXRlbSB7XG4gICAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICAgIGNvbG9yOiAjN2Y3ZjdmO1xuICAgICAgICAgIHBhZGRpbmc6IDEycHggMDtcbiAgICAgICAgICBmb250LXNpemU6IDE0cHg7XG4gICAgICAgICAgYm9yZGVyLWJvdHRvbTogc29saWQgMC41cHg7XG4gICAgICAgIH1cblxuICAgICAgICAuaXRlbTpsYXN0LWNoaWxkIHtcbiAgICAgICAgICBib3JkZXItYm90dG9tOiBub25lO1xuICAgICAgICB9XG5cbiAgICAgICAgLmF2YXRhci1jb250YWluZXIge1xuICAgICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgICAgICAgbWFyZ2luOiAwLjVlbSAwO1xuICAgICAgICB9XG4gICAgICBgfTwvc3R5bGU+XG4gICAgPC9kaXY+XG4gICk7XG59XG4iXX0= */\n/*@ sourceURL=/Users/tse/Code/VisuallyLab/BiiMe-store-web/components/Profile.tsx */',
+                __self: this,
               },
             ),
           );
@@ -467,6 +673,8 @@
         /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/ __webpack_require__.n(
           react__WEBPACK_IMPORTED_MODULE_1__,
         );
+        var _jsxFileName =
+          '/Users/tse/Code/VisuallyLab/BiiMe-store-web/components/Section.tsx';
 
         var Section = function Section(_ref) {
           var children = _ref.children,
@@ -488,6 +696,11 @@
                 ) +
                 ' ' +
                 'py align w-100 '.concat(fullscreen ? 'h-100' : ''),
+              __source: {
+                fileName: _jsxFileName,
+                lineNumber: 19,
+              },
+              __self: this,
             },
             react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
               'h1',
@@ -495,6 +708,11 @@
                 className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a.dynamic(
                   [['4012947771', [alignItems, textAlign]]],
                 ),
+                __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 20,
+                },
+                __self: this,
               },
               title,
             ),
@@ -513,6 +731,7 @@
                     ';}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy90c2UvQ29kZS9WaXN1YWxseUxhYi9CaWlNZS1zdG9yZS13ZWIvY29tcG9uZW50cy9TZWN0aW9uLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFxQmdCLEFBRzBCLEFBSU4sQUFHSyxBQUlILFdBTmYsS0FHcUIsQ0FQRyxrQkFReEIsSUFQQSxtQ0FVeUIsbUdBQ2tCLHFMQUNELHdDQUMxQyIsImZpbGUiOiIvVXNlcnMvdHNlL0NvZGUvVmlzdWFsbHlMYWIvQmlpTWUtc3RvcmUtd2ViL2NvbXBvbmVudHMvU2VjdGlvbi50c3giLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuXG5pbnRlcmZhY2UgSVByb3BzIHtcbiAgdGV4dEFsaWduPzogJ2NlbnRlcicgfCAnbGVmdCcgfCAncmlnaHQnO1xuICBhbGlnbkl0ZW1zPzogJ2NlbnRlcicgfCAnZmxleC1zdGFydCcgfCAnZmxleC1lbmQnO1xuICBmdWxsc2NyZWVuPzogYm9vbGVhbjtcbiAgZmlyc3Q/OiBib29sZWFuO1xuICB0aXRsZT86IHN0cmluZztcbiAgZGVzYz86IHN0cmluZ1tdO1xufVxuXG5jb25zdCBTZWN0aW9uOiBSZWFjdC5GdW5jdGlvbkNvbXBvbmVudDxJUHJvcHM+ID0gKHtcbiAgY2hpbGRyZW4sXG4gIHRpdGxlID0gJycsXG4gIHRleHRBbGlnbiA9ICdsZWZ0JyxcbiAgZnVsbHNjcmVlbiA9IGZhbHNlLFxuICBhbGlnbkl0ZW1zID0gJ2NlbnRlcicsXG59KSA9PiAoXG4gIDxzZWN0aW9uIGNsYXNzTmFtZT17YHB5IGFsaWduIHctMTAwICR7ZnVsbHNjcmVlbiA/ICdoLTEwMCcgOiAnJ31gfT5cbiAgICA8aDE+e3RpdGxlfTwvaDE+XG4gICAge2NoaWxkcmVufVxuICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgIC5oLTEwMCB7XG4gICAgICAgIG1pbi1oZWlnaHQ6IDEwMHZoO1xuICAgICAgICBib3gtc2l6aW5nOiBib3JkZXItYm94O1xuICAgICAgfVxuICAgICAgLnctMTAwIHtcbiAgICAgICAgd2lkdGg6IDEwMCU7XG4gICAgICB9XG4gICAgICAucHkge1xuICAgICAgICBwYWRkaW5nLXRvcDogNHZoO1xuICAgICAgICBwYWRkaW5nLWJvdHRvbTogNHZoO1xuICAgICAgfVxuICAgICAgLmFsaWduIHtcbiAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgICAgIGFsaWduLWl0ZW1zOiAke2FsaWduSXRlbXN9O1xuICAgICAgICB0ZXh0LWFsaWduOiAke3RleHRBbGlnbn07XG4gICAgICB9XG4gICAgYH08L3N0eWxlPlxuICA8L3NlY3Rpb24+XG4pO1xuXG5leHBvcnQgZGVmYXVsdCBTZWN0aW9uO1xuIl19 */\n/*@ sourceURL=/Users/tse/Code/VisuallyLab/BiiMe-store-web/components/Section.tsx */',
                   ),
                 dynamic: [alignItems, textAlign],
+                __self: this,
               },
             ),
           );
@@ -550,17 +769,29 @@
         /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/ __webpack_require__.n(
           react__WEBPACK_IMPORTED_MODULE_1__,
         );
+        var _jsxFileName =
+          '/Users/tse/Code/VisuallyLab/BiiMe-store-web/components/Status.tsx';
 
         function Status(props) {
           return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
             'div',
             {
               className: 'jsx-69859877' + ' ' + 'container',
+              __source: {
+                fileName: _jsxFileName,
+                lineNumber: 9,
+              },
+              __self: this,
             },
             react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(
               'h1',
               {
                 className: 'jsx-69859877' + ' ' + 'status',
+                __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 10,
+                },
+                __self: this,
               },
               props.status,
             ),
@@ -570,6 +801,7 @@
                 styleId: '69859877',
                 css:
                   ".container.jsx-69859877{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;margin:16px 0;border:dashed 3px #52c41a;opacity:0.5;}.status.jsx-69859877{color:#52c41a;}.status.jsx-69859877:before{content:'\u2714\uFE0E';margin-right:0.3em;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy90c2UvQ29kZS9WaXN1YWxseUxhYi9CaWlNZS1zdG9yZS13ZWIvY29tcG9uZW50cy9TdGF0dXMudHN4Il0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQVVrQixBQUd3QixBQVNDLEFBSUQsYUFDTSxDQUpyQixrQkFLQSwwQ0FkcUIsNkZBQ0ksbUdBQ1QsY0FDWSwwQkFDZCxZQUNkIiwiZmlsZSI6Ii9Vc2Vycy90c2UvQ29kZS9WaXN1YWxseUxhYi9CaWlNZS1zdG9yZS13ZWIvY29tcG9uZW50cy9TdGF0dXMudHN4Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgSWNvbiB9IGZyb20gJ2FudGQnO1xuXG50eXBlIFRQcm9wcyA9IHtcbiAgc3RhdHVzOiBzdHJpbmc7XG59O1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBTdGF0dXMocHJvcHM6IFRQcm9wcykge1xuICByZXR1cm4gKFxuICAgIDxkaXYgY2xhc3NOYW1lPVwiY29udGFpbmVyXCI+XG4gICAgICA8aDEgY2xhc3NOYW1lPVwic3RhdHVzXCI+e3Byb3BzLnN0YXR1c308L2gxPlxuICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICAuY29udGFpbmVyIHtcbiAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgICAgICAgbWFyZ2luOiAxNnB4IDA7XG4gICAgICAgICAgYm9yZGVyOiBkYXNoZWQgM3B4ICM1MmM0MWE7XG4gICAgICAgICAgb3BhY2l0eTogMC41O1xuICAgICAgICB9XG5cbiAgICAgICAgLnN0YXR1cyB7XG4gICAgICAgICAgY29sb3I6ICM1MmM0MWE7XG4gICAgICAgIH1cblxuICAgICAgICAuc3RhdHVzOmJlZm9yZSB7XG4gICAgICAgICAgY29udGVudDogJ+KclO+4jic7XG4gICAgICAgICAgbWFyZ2luLXJpZ2h0OiAwLjNlbTtcbiAgICAgICAgfVxuICAgICAgYH08L3N0eWxlPlxuICAgIDwvZGl2PlxuICApO1xufVxuIl19 */\n/*@ sourceURL=/Users/tse/Code/VisuallyLab/BiiMe-store-web/components/Status.tsx */",
+                __self: this,
               },
             ),
           );
@@ -35847,6 +36079,9 @@ https://github.com/threepointone/glamor/blob/667b480d31b3721a905021b26e1290ce92c
             /*! ../../fakeData */ './fakeData.ts',
           );
 
+          var _jsxFileName =
+            '/Users/tse/Code/VisuallyLab/BiiMe-store-web/pages/card/taipei-card.tsx';
+
           function _objectSpread(target) {
             for (var i = 1; i < arguments.length; i++) {
               var source = arguments[i] != null ? arguments[i] : {};
@@ -35946,6 +36181,11 @@ https://github.com/threepointone/glamor/blob/667b480d31b3721a905021b26e1290ce92c
                 style: {
                   background: 'rgba(31, 172, 227, 0.42)',
                 },
+                __source: {
+                  fileName: _jsxFileName,
+                  lineNumber: 20,
+                },
+                __self: this,
               },
               react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(
                 _components_Section__WEBPACK_IMPORTED_MODULE_6__['default'],
@@ -35953,12 +36193,22 @@ https://github.com/threepointone/glamor/blob/667b480d31b3721a905021b26e1290ce92c
                   fullscreen: true,
                   first: true,
                   alignItems: 'flex-start',
+                  __source: {
+                    fileName: _jsxFileName,
+                    lineNumber: 21,
+                  },
+                  __self: this,
                 },
                 react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(
                   antd_lib_tabs__WEBPACK_IMPORTED_MODULE_2___default.a,
                   {
                     defaultActiveKey: '1',
                     size: 'large',
+                    __source: {
+                      fileName: _jsxFileName,
+                      lineNumber: 22,
+                    },
+                    __self: this,
                   },
                   react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(
                     antd_lib_tabs__WEBPACK_IMPORTED_MODULE_2___default.a
@@ -35966,6 +36216,11 @@ https://github.com/threepointone/glamor/blob/667b480d31b3721a905021b26e1290ce92c
                     {
                       tab: 'Card',
                       key: '1',
+                      __source: {
+                        fileName: _jsxFileName,
+                        lineNumber: 23,
+                      },
+                      __self: this,
                     },
                     react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(
                       _components_ClaimCard__WEBPACK_IMPORTED_MODULE_7__[
@@ -35974,6 +36229,11 @@ https://github.com/threepointone/glamor/blob/667b480d31b3721a905021b26e1290ce92c
                       {
                         card:
                           _fakeData__WEBPACK_IMPORTED_MODULE_10__['taipeiCard'],
+                        __source: {
+                          fileName: _jsxFileName,
+                          lineNumber: 24,
+                        },
+                        __self: this,
                       },
                     ),
                     react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(
@@ -35983,6 +36243,11 @@ https://github.com/threepointone/glamor/blob/667b480d31b3721a905021b26e1290ce92c
                       {
                         discounts:
                           _fakeData__WEBPACK_IMPORTED_MODULE_10__['discounts'],
+                        __source: {
+                          fileName: _jsxFileName,
+                          lineNumber: 25,
+                        },
+                        __self: this,
                       },
                     ),
                   ),
@@ -35992,6 +36257,11 @@ https://github.com/threepointone/glamor/blob/667b480d31b3721a905021b26e1290ce92c
                     {
                       tab: 'Profile',
                       key: '2',
+                      __source: {
+                        fileName: _jsxFileName,
+                        lineNumber: 27,
+                      },
+                      __self: this,
                     },
                     react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(
                       _components_Profile__WEBPACK_IMPORTED_MODULE_9__[
@@ -35999,6 +36269,11 @@ https://github.com/threepointone/glamor/blob/667b480d31b3721a905021b26e1290ce92c
                       ],
                       {
                         user: user,
+                        __source: {
+                          fileName: _jsxFileName,
+                          lineNumber: 28,
+                        },
+                        __self: this,
                       },
                     ),
                   ),
