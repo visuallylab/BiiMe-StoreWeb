@@ -42,6 +42,7 @@ export function Discount({ data }: { data: TDiscount }) {
           color: #7f7f7f;
           padding: 12px 0;
           border-bottom: solid 0.5px;
+          line-height: 1.2;
         }
         .container:last-child {
           border-bottom: none;
@@ -63,8 +64,8 @@ export function Discount({ data }: { data: TDiscount }) {
           background: white url(${data.cover}) no-repeat center / contain;
           border: solid 1px rgba(127, 127, 127, 0.22);
           margin-right: 0.5em;
-          width: 80px;
-          height: 50px;
+          min-width: 80px;
+          min-height: 50px;
         }
       `}</style>
     </div>
