@@ -17,7 +17,10 @@ type TProps = {
 
 function TaiPeiCard({ user }: TProps) {
   return (
-    <CardLayout style={{ background: 'rgba(249, 121, 81, 0.42)' }}>
+    <CardLayout
+      title="BiiMe - Tainan Card"
+      style={{ background: 'rgba(249, 121, 81, 0.42)' }}
+    >
       <Section fullscreen first alignItems="flex-start">
         <Tabs defaultActiveKey="1" size="large">
           <Tabs.TabPane tab="Card" key="1">

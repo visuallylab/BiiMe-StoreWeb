@@ -49,7 +49,7 @@ const CardLayout: React.FunctionComponent<TProps> = ({
       }}
     >
       <img
-        src={require('../static/logo_BiiMe.png')}
+        src={require('../static/logo_BiiMe@3.png')}
         alt="logo"
         style={{ height: '130%' }}
       />
