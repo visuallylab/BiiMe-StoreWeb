@@ -36,17 +36,13 @@ export const fakeUser = {
 export const taipeiCard = {
   name: 'Taipei City Card',
   coverSrc: getRelativePath('/static/taipei_card.png'),
-  description: `description #
-  quisque tempus vehicula enim. Duis ut dolor nec augue blandit mattis
-  in sed lectus. Cras vehicula tincidunt massa, in gravida libero
-  fermentum quis.`,
+  description:
+    '"Taipei City Card" integrates all kinds of issue cards of the government, and achieves a number of municipal convenience measures all-in-one card. Besides, it also provides various discounts such as free activities and venue discounts.',
 };
 
 export const tainanCard = {
   name: 'Tainan City Card',
   coverSrc: getRelativePath('/static/tainan_card.png'),
-  description: `description #
-  quisque tempus vehicula enim. Duis ut dolor nec augue blandit mattis
-  in sed lectus. Cras vehicula tincidunt massa, in gravida libero
-  fermentum quis.`,
+  description:
+    '"Tainan City Card" provides various discounts such as free activities and venue discounts. Besides, it also integrates all kinds of issue cards of the government, and achieves a number of municipal convenience measures all-in-one card.',
 };
