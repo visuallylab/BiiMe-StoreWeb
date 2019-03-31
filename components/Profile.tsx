@@ -70,6 +70,7 @@ export default function Profile({ user }: TProps) {
           color: #7f7f7f;
           padding: 12px 0;
           font-size: 14px;
+          line-height: 1.2;
           border-bottom: solid 0.5px;
         }
 

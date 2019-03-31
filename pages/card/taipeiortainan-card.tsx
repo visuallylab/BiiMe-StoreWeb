@@ -72,7 +72,7 @@ TaipeiOrTainanCard.getInitialProps = ({ query }: NextContext<TQueryString>) => {
       return {
         style: { background: 'rgba(249, 121, 81, 0.42)' },
         card: tainanCard,
-        user: {
+        userInject: {
           issuerName: 'Tainan City Government',
         },
       };
@@ -82,7 +82,7 @@ TaipeiOrTainanCard.getInitialProps = ({ query }: NextContext<TQueryString>) => {
       return {
         style: { background: 'rgba(31, 172, 227, 0.42)' },
         card: taipeiCard,
-        user: {
+        userInject: {
           issuerName: 'Taipei City Government',
         },
       };
