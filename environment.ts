@@ -4,5 +4,3 @@ const env = (key: string, defaultValue = '') =>
   process.env[key] || defaultValue;
 
 export const GITHUB = env('DEPLOY_ENV') === 'github';
-
-console.log('environ: ', GITHUB);

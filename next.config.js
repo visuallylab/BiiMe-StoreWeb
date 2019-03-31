@@ -35,6 +35,9 @@ module.exports = withBundleAnalyzer(
             page: '/card/taipeiortainan-card',
             query: { certificationName: 'Tainan Card', did: '', name: '' },
           },
+          '/store-list': {
+            page: '/store-list',
+          },
         };
       },
       assetPrefix: GITHUB ? '/BiiMe-store-web/' : '',

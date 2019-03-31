@@ -5,21 +5,25 @@ export const discounts = [
     cover: getRelativePath('/static/cover_comebuy.png'),
     storeName: 'Comebuy',
     discountText: '20% off on bubble tea',
+    qrcode: getRelativePath('/static/qrcode_comebuy.png'),
   },
   {
     cover: getRelativePath('/static/cover_moleskine.jpeg'),
     storeName: 'Moleskine',
     discountText: '5% off on classic notebook',
+    qrcode: getRelativePath('/static/qrcode_moleskine.png'),
   },
   {
     cover: getRelativePath('/static/cover_ikea.jpeg'),
     storeName: 'Ikea',
     discountText: '10% off on food',
+    qrcode: getRelativePath('/static/qrcode_ikea.png'),
   },
   {
     cover: getRelativePath('/static/cover_starbucks.jpeg'),
     storeName: 'Starbucks',
     discountText: 'buy caffe and get one free',
+    qrcode: getRelativePath('/static/qrcode_starbucks.png'),
   },
 ];
 
