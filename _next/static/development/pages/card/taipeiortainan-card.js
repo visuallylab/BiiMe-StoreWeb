@@ -187,14 +187,14 @@ var _jsxFileName = "/Users/tse/Code/VisuallyLab/BiiMe-store-web/components/Profi
 function Profile(_ref) {
   var user = _ref.user;
   return react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-    className: "jsx-502736414" + " " + "container",
+    className: "jsx-3265032200" + " " + "container",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-    className: "jsx-502736414" + " " + "avatar-container",
+    className: "jsx-3265032200" + " " + "avatar-container",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20
@@ -209,155 +209,155 @@ function Profile(_ref) {
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-    className: "jsx-502736414" + " " + "item",
+    className: "jsx-3265032200" + " " + "item",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 26
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("span", {
-    className: "jsx-502736414" + " " + "title",
+  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+    className: "jsx-3265032200" + " " + "title",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 27
     },
     __self: this
-  }, "Did:\xA0"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("span", {
-    className: "jsx-502736414",
+  }, "Did:\xA0"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+    className: "jsx-3265032200",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 28
     },
     __self: this
   }, user.did)), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-    className: "jsx-502736414" + " " + "item",
+    className: "jsx-3265032200" + " " + "item",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 30
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("span", {
-    className: "jsx-502736414" + " " + "title",
+  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+    className: "jsx-3265032200" + " " + "title",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 31
     },
     __self: this
-  }, "Name:\xA0"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("span", {
-    className: "jsx-502736414",
+  }, "Name:\xA0"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+    className: "jsx-3265032200",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 32
     },
     __self: this
   }, user.name)), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-    className: "jsx-502736414" + " " + "item",
+    className: "jsx-3265032200" + " " + "item",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 34
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("span", {
-    className: "jsx-502736414" + " " + "title",
+  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+    className: "jsx-3265032200" + " " + "title",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 35
     },
     __self: this
-  }, "Certification Name:\xA0"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("span", {
-    className: "jsx-502736414",
+  }, "Certification Name:\xA0"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+    className: "jsx-3265032200",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 36
     },
     __self: this
   }, user.certificationName)), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-    className: "jsx-502736414" + " " + "item",
+    className: "jsx-3265032200" + " " + "item",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 38
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("span", {
-    className: "jsx-502736414" + " " + "title",
+  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+    className: "jsx-3265032200" + " " + "title",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 39
     },
     __self: this
-  }, "Certificated At:\xA0"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("span", {
-    className: "jsx-502736414",
+  }, "Certificated At:\xA0"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+    className: "jsx-3265032200",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 40
     },
     __self: this
   }, user.certificatedAt)), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-    className: "jsx-502736414" + " " + "item",
+    className: "jsx-3265032200" + " " + "item",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 42
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("span", {
-    className: "jsx-502736414" + " " + "title",
+  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+    className: "jsx-3265032200" + " " + "title",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 43
     },
     __self: this
-  }, "Expired At:\xA0"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("span", {
-    className: "jsx-502736414",
+  }, "Expired At:\xA0"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+    className: "jsx-3265032200",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 44
     },
     __self: this
   }, user.expiredAt)), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-    className: "jsx-502736414" + " " + "item",
+    className: "jsx-3265032200" + " " + "item",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 46
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("span", {
-    className: "jsx-502736414" + " " + "title",
+  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+    className: "jsx-3265032200" + " " + "title",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 47
     },
     __self: this
-  }, "Issuer Name:\xA0"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("span", {
-    className: "jsx-502736414",
+  }, "Issuer Name:\xA0"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+    className: "jsx-3265032200",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 48
     },
     __self: this
   }, user.issuerName)), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-    className: "jsx-502736414" + " " + "item",
+    className: "jsx-3265032200" + " " + "item",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 50
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("span", {
-    className: "jsx-502736414" + " " + "title",
+  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+    className: "jsx-3265032200" + " " + "title",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 51
     },
     __self: this
-  }, "Transaction Hash:\xA0"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("span", {
-    className: "jsx-502736414",
+  }, "Transaction Hash:\xA0"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+    className: "jsx-3265032200",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 52
     },
     __self: this
   }, user.transactionHash)), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    styleId: "502736414",
-    css: ".container.jsx-502736414{margin:0 0 16px;padding:16px;border-radius:10px;background-color:white;}.title.jsx-502736414{font-weight:500;font-size:16px;}.item.jsx-502736414{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;color:#7f7f7f;padding:12px 0;font-size:14px;border-bottom:solid 0.5px;}.item.jsx-502736414:last-child{border-bottom:none;}.avatar-container.jsx-502736414{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;margin:0.5em 0;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy90c2UvQ29kZS9WaXN1YWxseUxhYi9CaWlNZS1zdG9yZS13ZWIvY29tcG9uZW50cy9Qcm9maWxlLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFxRGtCLEFBRzJCLEFBT0EsQUFLSCxBQVNNLEFBSU4sZ0JBeEJBLEFBT0UsR0FjakIsVUFwQnFCLEVBT3JCLGlCQU55Qix1QkFDekIsR0FTcUIsQUFhSSw2RkFaVCxNQWFDLFFBWkEsT0FhakIsUUFaaUIsZUFDVywwQkFDNUIiLCJmaWxlIjoiL1VzZXJzL3RzZS9Db2RlL1Zpc3VhbGx5TGFiL0JpaU1lLXN0b3JlLXdlYi9jb21wb25lbnRzL1Byb2ZpbGUudHN4Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgQXZhdGFyIH0gZnJvbSAnYW50ZCc7XG5cbmV4cG9ydCB0eXBlIFRVc2VyID0ge1xuICBkaWQ6IHN0cmluZztcbiAgbmFtZTogc3RyaW5nO1xuICBjZXJ0aWZpY2F0aW9uTmFtZTogc3RyaW5nO1xuICBjZXJ0aWZpY2F0ZWRBdDogc3RyaW5nO1xuICBleHBpcmVkQXQ6IHN0cmluZztcbiAgaXNzdWVyTmFtZTogc3RyaW5nO1xuICB0cmFuc2FjdGlvbkhhc2g6IHN0cmluZztcbn07XG5cbnR5cGUgVFByb3BzID0ge1xuICB1c2VyOiBUVXNlcjtcbn07XG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFByb2ZpbGUoeyB1c2VyIH06IFRQcm9wcykge1xuICByZXR1cm4gKFxuICAgIDxkaXYgY2xhc3NOYW1lPVwiY29udGFpbmVyXCI+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cImF2YXRhci1jb250YWluZXJcIj5cbiAgICAgICAgPEF2YXRhclxuICAgICAgICAgIHNyYz1cImh0dHBzOi8vem9zLmFsaXBheW9iamVjdHMuY29tL3Jtc3BvcnRhbC9PRFRMY2p4QWZ2cWJ4SG5WWENZWC5wbmdcIlxuICAgICAgICAgIHNpemU9ezgwfVxuICAgICAgICAvPlxuICAgICAgPC9kaXY+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cIml0ZW1cIj5cbiAgICAgICAgPHNwYW4gY2xhc3NOYW1lPVwidGl0bGVcIj5EaWQ6Jm5ic3A7PC9zcGFuPlxuICAgICAgICA8c3Bhbj57dXNlci5kaWR9PC9zcGFuPlxuICAgICAgPC9kaXY+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cIml0ZW1cIj5cbiAgICAgICAgPHNwYW4gY2xhc3NOYW1lPVwidGl0bGVcIj5OYW1lOiZuYnNwOzwvc3Bhbj5cbiAgICAgICAgPHNwYW4+e3VzZXIubmFtZX08L3NwYW4+XG4gICAgICA8L2Rpdj5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwiaXRlbVwiPlxuICAgICAgICA8c3BhbiBjbGFzc05hbWU9XCJ0aXRsZVwiPkNlcnRpZmljYXRpb24gTmFtZTombmJzcDs8L3NwYW4+XG4gICAgICAgIDxzcGFuPnt1c2VyLmNlcnRpZmljYXRpb25OYW1lfTwvc3Bhbj5cbiAgICAgIDwvZGl2PlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJpdGVtXCI+XG4gICAgICAgIDxzcGFuIGNsYXNzTmFtZT1cInRpdGxlXCI+Q2VydGlmaWNhdGVkIEF0OiZuYnNwOzwvc3Bhbj5cbiAgICAgICAgPHNwYW4+e3VzZXIuY2VydGlmaWNhdGVkQXR9PC9zcGFuPlxuICAgICAgPC9kaXY+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cIml0ZW1cIj5cbiAgICAgICAgPHNwYW4gY2xhc3NOYW1lPVwidGl0bGVcIj5FeHBpcmVkIEF0OiZuYnNwOzwvc3Bhbj5cbiAgICAgICAgPHNwYW4+e3VzZXIuZXhwaXJlZEF0fTwvc3Bhbj5cbiAgICAgIDwvZGl2PlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJpdGVtXCI+XG4gICAgICAgIDxzcGFuIGNsYXNzTmFtZT1cInRpdGxlXCI+SXNzdWVyIE5hbWU6Jm5ic3A7PC9zcGFuPlxuICAgICAgICA8c3Bhbj57dXNlci5pc3N1ZXJOYW1lfTwvc3Bhbj5cbiAgICAgIDwvZGl2PlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJpdGVtXCI+XG4gICAgICAgIDxzcGFuIGNsYXNzTmFtZT1cInRpdGxlXCI+VHJhbnNhY3Rpb24gSGFzaDombmJzcDs8L3NwYW4+XG4gICAgICAgIDxzcGFuPnt1c2VyLnRyYW5zYWN0aW9uSGFzaH08L3NwYW4+XG4gICAgICA8L2Rpdj5cbiAgICAgIDxzdHlsZSBqc3g+e2BcbiAgICAgICAgLmNvbnRhaW5lciB7XG4gICAgICAgICAgbWFyZ2luOiAwIDAgMTZweDtcbiAgICAgICAgICBwYWRkaW5nOiAxNnB4O1xuICAgICAgICAgIGJvcmRlci1yYWRpdXM6IDEwcHg7XG4gICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogd2hpdGU7XG4gICAgICAgIH1cblxuICAgICAgICAudGl0bGUge1xuICAgICAgICAgIGZvbnQtd2VpZ2h0OiA1MDA7XG4gICAgICAgICAgZm9udC1zaXplOiAxNnB4O1xuICAgICAgICB9XG5cbiAgICAgICAgLml0ZW0ge1xuICAgICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICAgICAgICBjb2xvcjogIzdmN2Y3ZjtcbiAgICAgICAgICBwYWRkaW5nOiAxMnB4IDA7XG4gICAgICAgICAgZm9udC1zaXplOiAxNHB4O1xuICAgICAgICAgIGJvcmRlci1ib3R0b206IHNvbGlkIDAuNXB4O1xuICAgICAgICB9XG5cbiAgICAgICAgLml0ZW06bGFzdC1jaGlsZCB7XG4gICAgICAgICAgYm9yZGVyLWJvdHRvbTogbm9uZTtcbiAgICAgICAgfVxuXG4gICAgICAgIC5hdmF0YXItY29udGFpbmVyIHtcbiAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgICAgICAgIG1hcmdpbjogMC41ZW0gMDtcbiAgICAgICAgfVxuICAgICAgYH08L3N0eWxlPlxuICAgIDwvZGl2PlxuICApO1xufVxuIl19 */\n/*@ sourceURL=/Users/tse/Code/VisuallyLab/BiiMe-store-web/components/Profile.tsx */",
+    styleId: "3265032200",
+    css: ".container.jsx-3265032200{margin:0 0 16px;padding:16px;border-radius:10px;background-color:white;}.title.jsx-3265032200{font-weight:500;font-size:16px;}.item.jsx-3265032200{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;color:#7f7f7f;padding:12px 0;font-size:14px;line-height:1.2;border-bottom:solid 0.5px;}.item.jsx-3265032200>div.jsx-3265032200{max-width:100%;word-wrap:break-word;}.item.jsx-3265032200:last-child{border-bottom:none;}.avatar-container.jsx-3265032200{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;margin:0.5em 0;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy90c2UvQ29kZS9WaXN1YWxseUxhYi9CaWlNZS1zdG9yZS13ZWIvY29tcG9uZW50cy9Qcm9maWxlLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFxRGtCLEFBRzJCLEFBT0EsQUFLSCxBQVdFLEFBS0ksQUFJTixlQVJRLENBdkJSLEFBT0UsR0FxQmpCLFVBM0JxQixFQU9yQixLQWdCQSxZQXRCeUIsdUJBQ3pCLEdBU3FCLEFBb0JJLDZGQW5CUixNQW9CQSxlQUNqQixvQ0FwQmdCLGNBQ0MsZUFDQSxlQUNDLGdCQUNVLDBCQUM1QiIsImZpbGUiOiIvVXNlcnMvdHNlL0NvZGUvVmlzdWFsbHlMYWIvQmlpTWUtc3RvcmUtd2ViL2NvbXBvbmVudHMvUHJvZmlsZS50c3giLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBBdmF0YXIgfSBmcm9tICdhbnRkJztcblxuZXhwb3J0IHR5cGUgVFVzZXIgPSB7XG4gIGRpZDogc3RyaW5nO1xuICBuYW1lOiBzdHJpbmc7XG4gIGNlcnRpZmljYXRpb25OYW1lOiBzdHJpbmc7XG4gIGNlcnRpZmljYXRlZEF0OiBzdHJpbmc7XG4gIGV4cGlyZWRBdDogc3RyaW5nO1xuICBpc3N1ZXJOYW1lOiBzdHJpbmc7XG4gIHRyYW5zYWN0aW9uSGFzaDogc3RyaW5nO1xufTtcblxudHlwZSBUUHJvcHMgPSB7XG4gIHVzZXI6IFRVc2VyO1xufTtcblxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gUHJvZmlsZSh7IHVzZXIgfTogVFByb3BzKSB7XG4gIHJldHVybiAoXG4gICAgPGRpdiBjbGFzc05hbWU9XCJjb250YWluZXJcIj5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwiYXZhdGFyLWNvbnRhaW5lclwiPlxuICAgICAgICA8QXZhdGFyXG4gICAgICAgICAgc3JjPVwiaHR0cHM6Ly96b3MuYWxpcGF5b2JqZWN0cy5jb20vcm1zcG9ydGFsL09EVExjanhBZnZxYnhIblZYQ1lYLnBuZ1wiXG4gICAgICAgICAgc2l6ZT17ODB9XG4gICAgICAgIC8+XG4gICAgICA8L2Rpdj5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwiaXRlbVwiPlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInRpdGxlXCI+RGlkOiZuYnNwOzwvZGl2PlxuICAgICAgICA8ZGl2Pnt1c2VyLmRpZH08L2Rpdj5cbiAgICAgIDwvZGl2PlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJpdGVtXCI+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwidGl0bGVcIj5OYW1lOiZuYnNwOzwvZGl2PlxuICAgICAgICA8ZGl2Pnt1c2VyLm5hbWV9PC9kaXY+XG4gICAgICA8L2Rpdj5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwiaXRlbVwiPlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInRpdGxlXCI+Q2VydGlmaWNhdGlvbiBOYW1lOiZuYnNwOzwvZGl2PlxuICAgICAgICA8ZGl2Pnt1c2VyLmNlcnRpZmljYXRpb25OYW1lfTwvZGl2PlxuICAgICAgPC9kaXY+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cIml0ZW1cIj5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJ0aXRsZVwiPkNlcnRpZmljYXRlZCBBdDombmJzcDs8L2Rpdj5cbiAgICAgICAgPGRpdj57dXNlci5jZXJ0aWZpY2F0ZWRBdH08L2Rpdj5cbiAgICAgIDwvZGl2PlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJpdGVtXCI+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwidGl0bGVcIj5FeHBpcmVkIEF0OiZuYnNwOzwvZGl2PlxuICAgICAgICA8ZGl2Pnt1c2VyLmV4cGlyZWRBdH08L2Rpdj5cbiAgICAgIDwvZGl2PlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJpdGVtXCI+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwidGl0bGVcIj5Jc3N1ZXIgTmFtZTombmJzcDs8L2Rpdj5cbiAgICAgICAgPGRpdj57dXNlci5pc3N1ZXJOYW1lfTwvZGl2PlxuICAgICAgPC9kaXY+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cIml0ZW1cIj5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJ0aXRsZVwiPlRyYW5zYWN0aW9uIEhhc2g6Jm5ic3A7PC9kaXY+XG4gICAgICAgIDxkaXY+e3VzZXIudHJhbnNhY3Rpb25IYXNofTwvZGl2PlxuICAgICAgPC9kaXY+XG4gICAgICA8c3R5bGUganN4PntgXG4gICAgICAgIC5jb250YWluZXIge1xuICAgICAgICAgIG1hcmdpbjogMCAwIDE2cHg7XG4gICAgICAgICAgcGFkZGluZzogMTZweDtcbiAgICAgICAgICBib3JkZXItcmFkaXVzOiAxMHB4O1xuICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6IHdoaXRlO1xuICAgICAgICB9XG5cbiAgICAgICAgLnRpdGxlIHtcbiAgICAgICAgICBmb250LXdlaWdodDogNTAwO1xuICAgICAgICAgIGZvbnQtc2l6ZTogMTZweDtcbiAgICAgICAgfVxuXG4gICAgICAgIC5pdGVtIHtcbiAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgICAgZmxleC13cmFwOiB3cmFwO1xuICAgICAgICAgIGNvbG9yOiAjN2Y3ZjdmO1xuICAgICAgICAgIHBhZGRpbmc6IDEycHggMDtcbiAgICAgICAgICBmb250LXNpemU6IDE0cHg7XG4gICAgICAgICAgbGluZS1oZWlnaHQ6IDEuMjtcbiAgICAgICAgICBib3JkZXItYm90dG9tOiBzb2xpZCAwLjVweDtcbiAgICAgICAgfVxuXG4gICAgICAgIC5pdGVtID4gZGl2IHtcbiAgICAgICAgICBtYXgtd2lkdGg6IDEwMCU7XG4gICAgICAgICAgd29yZC13cmFwOiBicmVhay13b3JkO1xuICAgICAgICB9XG5cbiAgICAgICAgLml0ZW06bGFzdC1jaGlsZCB7XG4gICAgICAgICAgYm9yZGVyLWJvdHRvbTogbm9uZTtcbiAgICAgICAgfVxuXG4gICAgICAgIC5hdmF0YXItY29udGFpbmVyIHtcbiAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgICAgICAgIG1hcmdpbjogMC41ZW0gMDtcbiAgICAgICAgfVxuICAgICAgYH08L3N0eWxlPlxuICAgIDwvZGl2PlxuICApO1xufVxuIl19 */\n/*@ sourceURL=/Users/tse/Code/VisuallyLab/BiiMe-store-web/components/Profile.tsx */",
     __self: this
   }));
 }
@@ -486,6 +486,28 @@ var NAV_TITLE = 'nav title';
 
 /***/ }),
 
+/***/ "./environment.ts":
+/*!************************!*\
+  !*** ./environment.ts ***!
+  \************************/
+/*! exports provided: GITHUB */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(process) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GITHUB", function() { return GITHUB; });
+// runtime env
+var env = function env(key) {
+  var defaultValue = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : '';
+  return process.env[key] || defaultValue;
+};
+
+var GITHUB = env('DEPLOY_ENV') === 'github';
+console.log('environ: ', GITHUB);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/process/browser.js */ "./node_modules/process/browser.js")))
+
+/***/ }),
+
 /***/ "./fakeData.ts":
 /*!*********************!*\
   !*** ./fakeData.ts ***!
@@ -499,20 +521,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "fakeUser", function() { return fakeUser; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "taipeiCard", function() { return taipeiCard; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "tainanCard", function() { return tainanCard; });
+/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./utils */ "./utils.ts");
+
 var discounts = [{
-  cover: '/static/cover_comebuy.png',
+  cover: Object(_utils__WEBPACK_IMPORTED_MODULE_0__["getRelativePath"])('/static/cover_comebuy.png'),
   storeName: 'Comebuy',
   discountText: '20% off on bubble tea'
 }, {
-  cover: '/static/cover_moleskine.jpeg',
+  cover: Object(_utils__WEBPACK_IMPORTED_MODULE_0__["getRelativePath"])('/static/cover_moleskine.jpeg'),
   storeName: 'Moleskine',
   discountText: '5% off on classic notebook'
 }, {
-  cover: '/static/cover_ikea.jpeg',
+  cover: Object(_utils__WEBPACK_IMPORTED_MODULE_0__["getRelativePath"])('/static/cover_ikea.jpeg'),
   storeName: 'Ikea',
   discountText: '10% off on food'
 }, {
-  cover: '/static/cover_starbucks.jpeg',
+  cover: Object(_utils__WEBPACK_IMPORTED_MODULE_0__["getRelativePath"])('/static/cover_starbucks.jpeg'),
   storeName: 'Starbucks',
   discountText: 'buy caffe and get one free'
 }];
@@ -527,13 +551,13 @@ var fakeUser = {
 };
 var taipeiCard = {
   name: 'Taipei City Card',
-  coverSrc: '/static/taipei_card.png',
-  description: "description #\n  quisque tempus vehicula enim. Duis ut dolor nec augue blandit mattis\n  in sed lectus. Cras vehicula tincidunt massa, in gravida libero\n  fermentum quis."
+  coverSrc: Object(_utils__WEBPACK_IMPORTED_MODULE_0__["getRelativePath"])('/static/taipei_card.png'),
+  description: '"Taipei City Card" integrates all kinds of issue cards of the government, and achieves a number of municipal convenience measures all-in-one card. Besides, it also provides various discounts such as free activities and venue discounts.'
 };
 var tainanCard = {
   name: 'Tainan City Card',
-  coverSrc: '/static/tainan_card.png',
-  description: "description #\n  quisque tempus vehicula enim. Duis ut dolor nec augue blandit mattis\n  in sed lectus. Cras vehicula tincidunt massa, in gravida libero\n  fermentum quis."
+  coverSrc: Object(_utils__WEBPACK_IMPORTED_MODULE_0__["getRelativePath"])('/static/tainan_card.png'),
+  description: '"Tainan City Card" provides various discounts such as free activities and venue discounts. Besides, it also integrates all kinds of issue cards of the government, and achieves a number of municipal convenience measures all-in-one card.'
 };
 
 /***/ }),
@@ -570,6 +594,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_card_less__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../assets/card.less */ "./assets/card.less");
 /* harmony import */ var _assets_card_less__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_assets_card_less__WEBPACK_IMPORTED_MODULE_10__);
 /* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../constants */ "./constants/index.ts");
+/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../utils */ "./utils.ts");
 
 
 
@@ -577,6 +602,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _jsxFileName = "/Users/tse/Code/VisuallyLab/BiiMe-store-web/layouts/Card.tsx";
+
 
 
 
@@ -593,39 +619,23 @@ var CardLayout = function CardLayout(_ref) {
     style: style,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 28
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_8___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 29
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("title", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 30
     },
     __self: this
   }, title), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("meta", {
     charSet: "utf-8",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("meta", {
-    name: "viewport",
-    content: "initial-scale=1.0, width=device-width",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("meta", {
-    name: "language",
-    content: "en",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 31
@@ -633,10 +643,26 @@ var CardLayout = function CardLayout(_ref) {
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("meta", {
     name: "viewport",
-    content: "width=device-width, initial-scale=1.0",
+    content: "initial-scale=1.0, width=device-width",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 32
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("meta", {
+    name: "language",
+    content: "en",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("meta", {
+    name: "viewport",
+    content: "width=device-width, initial-scale=1.0",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("meta", {
@@ -644,7 +670,7 @@ var CardLayout = function CardLayout(_ref) {
     content: _constants__WEBPACK_IMPORTED_MODULE_11__["SITE_DESC"],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 35
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("link", {
@@ -653,7 +679,7 @@ var CardLayout = function CardLayout(_ref) {
     href: _constants__WEBPACK_IMPORTED_MODULE_11__["FAVICON_PATH"],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 36
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("link", {
@@ -661,7 +687,7 @@ var CardLayout = function CardLayout(_ref) {
     href: _constants__WEBPACK_IMPORTED_MODULE_11__["LARGE_ICON_PATH"],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 37
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("meta", {
@@ -669,7 +695,7 @@ var CardLayout = function CardLayout(_ref) {
     content: _constants__WEBPACK_IMPORTED_MODULE_11__["SITE_URL"],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 38
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("meta", {
@@ -677,7 +703,7 @@ var CardLayout = function CardLayout(_ref) {
     content: _constants__WEBPACK_IMPORTED_MODULE_11__["SITE_TITLE"],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 39
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("meta", {
@@ -685,7 +711,7 @@ var CardLayout = function CardLayout(_ref) {
     content: _constants__WEBPACK_IMPORTED_MODULE_11__["SITE_DESC"],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 40
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("meta", {
@@ -693,7 +719,7 @@ var CardLayout = function CardLayout(_ref) {
     content: _constants__WEBPACK_IMPORTED_MODULE_11__["LARGE_ICON_PATH"],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 41
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("meta", {
@@ -701,7 +727,7 @@ var CardLayout = function CardLayout(_ref) {
     content: "yes",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 42
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("meta", {
@@ -709,7 +735,7 @@ var CardLayout = function CardLayout(_ref) {
     content: "black",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 43
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(antd_lib_layout__WEBPACK_IMPORTED_MODULE_5___default.a.Header, {
@@ -721,24 +747,24 @@ var CardLayout = function CardLayout(_ref) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 45
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
-    src: "/static/logo_BiiMe@3.png",
+    src: Object(_utils__WEBPACK_IMPORTED_MODULE_12__["getRelativePath"])('/static/logo_BiiMe@3.png'),
     alt: "logo",
     style: {
       height: '130%'
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 53
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(antd_lib_layout__WEBPACK_IMPORTED_MODULE_5___default.a.Content, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57
+      lineNumber: 59
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(antd_lib_row__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -746,7 +772,7 @@ var CardLayout = function CardLayout(_ref) {
     justify: "center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58
+      lineNumber: 60
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(antd_lib_col__WEBPACK_IMPORTED_MODULE_3___default.a, {
@@ -754,7 +780,7 @@ var CardLayout = function CardLayout(_ref) {
     lg: 12,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
+      lineNumber: 61
     },
     __self: this
   }, children))), globalStyles);
@@ -762,7 +788,7 @@ var CardLayout = function CardLayout(_ref) {
 
 var globalStyles = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_6___default.a, {
   styleId: "1532320835",
-  css: "html,body{margin:0;padding:0;}h1{font-weight:400;font-size:2.5rem;-webkit-letter-spacing:0.1rem;-moz-letter-spacing:0.1rem;-ms-letter-spacing:0.1rem;letter-spacing:0.1rem;margin-top:12px;}p{font-size:20px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy90c2UvQ29kZS9WaXN1YWxseUxhYi9CaWlNZS1zdG9yZS13ZWIvbGF5b3V0cy9DYXJkLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFvRXFCLEFBSWdCLEFBS08sQUFNRCxTQVZMLE1BV1osQ0FObUIsR0FKbkIsY0FLd0IseUdBQ04sZ0JBQ2xCIiwiZmlsZSI6Ii9Vc2Vycy90c2UvQ29kZS9WaXN1YWxseUxhYi9CaWlNZS1zdG9yZS13ZWIvbGF5b3V0cy9DYXJkLnRzeCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5pbXBvcnQgSGVhZCBmcm9tICduZXh0L2hlYWQnO1xuaW1wb3J0IHsgQ29sLCBMYXlvdXQsIFJvdyB9IGZyb20gJ2FudGQnO1xuXG5pbXBvcnQgJy4uL2Fzc2V0cy9zdHlsZS5sZXNzJztcbmltcG9ydCAnLi4vYXNzZXRzL2NhcmQubGVzcyc7XG5pbXBvcnQge1xuICBTSVRFX1RJVExFLFxuICBTSVRFX0RFU0MsXG4gIEZBVklDT05fUEFUSCxcbiAgTEFSR0VfSUNPTl9QQVRILFxuICBTSVRFX1VSTCxcbn0gZnJvbSAnLi4vY29uc3RhbnRzJztcblxudHlwZSBUUHJvcHMgPSB7XG4gIHRpdGxlPzogc3RyaW5nO1xuICBjaGlsZHJlbjogUmVhY3QuUmVhY3ROb2RlO1xuICBzdHlsZT86IFJlYWN0LkNTU1Byb3BlcnRpZXM7XG59O1xuXG5jb25zdCBDYXJkTGF5b3V0OiBSZWFjdC5GdW5jdGlvbkNvbXBvbmVudDxUUHJvcHM+ID0gKHtcbiAgY2hpbGRyZW4sXG4gIHRpdGxlID0gU0lURV9USVRMRSxcbiAgc3R5bGUsXG59KSA9PiAoXG4gIDxMYXlvdXQgc3R5bGU9e3N0eWxlfT5cbiAgICA8SGVhZD5cbiAgICAgIDx0aXRsZT57dGl0bGV9PC90aXRsZT5cbiAgICAgIDxtZXRhIGNoYXJTZXQ9XCJ1dGYtOFwiIC8+XG4gICAgICA8bWV0YSBuYW1lPVwidmlld3BvcnRcIiBjb250ZW50PVwiaW5pdGlhbC1zY2FsZT0xLjAsIHdpZHRoPWRldmljZS13aWR0aFwiIC8+XG4gICAgICA8bWV0YSBuYW1lPVwibGFuZ3VhZ2VcIiBjb250ZW50PVwiZW5cIiAvPlxuICAgICAgPG1ldGEgbmFtZT1cInZpZXdwb3J0XCIgY29udGVudD1cIndpZHRoPWRldmljZS13aWR0aCwgaW5pdGlhbC1zY2FsZT0xLjBcIiAvPlxuICAgICAgPG1ldGEgbmFtZT1cImRlc2NyaXB0aW9uXCIgY29udGVudD17U0lURV9ERVNDfSAvPlxuICAgICAgPGxpbmsgcmVsPVwiaWNvblwiIHR5cGU9XCJpbWFnZS94LWljb25cIiBocmVmPXtGQVZJQ09OX1BBVEh9IC8+XG4gICAgICA8bGluayByZWw9XCJhcHBsZS10b3VjaC1pY29uXCIgaHJlZj17TEFSR0VfSUNPTl9QQVRIfSAvPlxuICAgICAgPG1ldGEgcHJvcGVydHk9XCJvZzp1cmxcIiBjb250ZW50PXtTSVRFX1VSTH0gLz5cbiAgICAgIDxtZXRhIHByb3BlcnR5PVwib2c6dGl0bGVcIiBjb250ZW50PXtTSVRFX1RJVExFfSAvPlxuICAgICAgPG1ldGEgcHJvcGVydHk9XCJvZzpkZXNjcmlwdGlvblwiIGNvbnRlbnQ9e1NJVEVfREVTQ30gLz5cbiAgICAgIDxtZXRhIHByb3BlcnR5PVwib2c6aW1hZ2VcIiBjb250ZW50PXtMQVJHRV9JQ09OX1BBVEh9IC8+XG4gICAgICA8bWV0YSBuYW1lPVwiYXBwbGUtbW9iaWxlLXdlYi1hcHAtY2FwYWJsZVwiIGNvbnRlbnQ9XCJ5ZXNcIiAvPlxuICAgICAgPG1ldGEgbmFtZT1cImFwcGxlLW1vYmlsZS13ZWItYXBwLXN0YXR1cy1iYXItc3R5bGVcIiBjb250ZW50PVwiYmxhY2tcIiAvPlxuICAgIDwvSGVhZD5cbiAgICA8TGF5b3V0LkhlYWRlclxuICAgICAgc3R5bGU9e3tcbiAgICAgICAgYmFja2dyb3VuZDogJ3JnYigyMiwgMjgsIDUzKScsXG4gICAgICAgIGRpc3BsYXk6ICdmbGV4JyxcbiAgICAgICAganVzdGlmeUNvbnRlbnQ6ICdjZW50ZXInLFxuICAgICAgICBhbGlnbkl0ZW1zOiAnY2VudGVyJyxcbiAgICAgIH19XG4gICAgPlxuICAgICAgPGltZ1xuICAgICAgICBzcmM9XCIvc3RhdGljL2xvZ29fQmlpTWVAMy5wbmdcIlxuICAgICAgICBhbHQ9XCJsb2dvXCJcbiAgICAgICAgc3R5bGU9e3sgaGVpZ2h0OiAnMTMwJScgfX1cbiAgICAgIC8+XG4gICAgPC9MYXlvdXQuSGVhZGVyPlxuICAgIDxMYXlvdXQuQ29udGVudD5cbiAgICAgIDxSb3cgdHlwZT1cImZsZXhcIiBqdXN0aWZ5PVwiY2VudGVyXCI+XG4gICAgICAgIDxDb2wgeHM9ezIwfSBsZz17MTJ9PlxuICAgICAgICAgIHtjaGlsZHJlbn1cbiAgICAgICAgPC9Db2w+XG4gICAgICA8L1Jvdz5cbiAgICA8L0xheW91dC5Db250ZW50PlxuICAgIHtnbG9iYWxTdHlsZXN9XG4gIDwvTGF5b3V0PlxuKTtcblxuY29uc3QgZ2xvYmFsU3R5bGVzID0gKFxuICA8c3R5bGUganN4IGdsb2JhbD57YFxuICAgIGh0bWwsXG4gICAgYm9keSB7XG4gICAgICBtYXJnaW46IDA7XG4gICAgICBwYWRkaW5nOiAwO1xuICAgIH1cblxuICAgIGgxIHtcbiAgICAgIGZvbnQtd2VpZ2h0OiA0MDA7XG4gICAgICBmb250LXNpemU6IDIuNXJlbTtcbiAgICAgIGxldHRlci1zcGFjaW5nOiAwLjFyZW07XG4gICAgICBtYXJnaW4tdG9wOiAxMnB4O1xuICAgIH1cbiAgICBwIHtcbiAgICAgIGZvbnQtc2l6ZTogMjBweDtcbiAgICB9XG4gIGB9PC9zdHlsZT5cbik7XG5cbmV4cG9ydCBkZWZhdWx0IENhcmRMYXlvdXQ7XG4iXX0= */\n/*@ sourceURL=/Users/tse/Code/VisuallyLab/BiiMe-store-web/layouts/Card.tsx */",
+  css: "html,body{margin:0;padding:0;}h1{font-weight:400;font-size:2.5rem;-webkit-letter-spacing:0.1rem;-moz-letter-spacing:0.1rem;-ms-letter-spacing:0.1rem;letter-spacing:0.1rem;margin-top:12px;}p{font-size:20px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy90c2UvQ29kZS9WaXN1YWxseUxhYi9CaWlNZS1zdG9yZS13ZWIvbGF5b3V0cy9DYXJkLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFzRXFCLEFBSWdCLEFBS08sQUFNRCxTQVZMLE1BV1osQ0FObUIsR0FKbkIsY0FLd0IseUdBQ04sZ0JBQ2xCIiwiZmlsZSI6Ii9Vc2Vycy90c2UvQ29kZS9WaXN1YWxseUxhYi9CaWlNZS1zdG9yZS13ZWIvbGF5b3V0cy9DYXJkLnRzeCIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5pbXBvcnQgSGVhZCBmcm9tICduZXh0L2hlYWQnO1xuaW1wb3J0IHsgQ29sLCBMYXlvdXQsIFJvdyB9IGZyb20gJ2FudGQnO1xuXG5pbXBvcnQgJy4uL2Fzc2V0cy9zdHlsZS5sZXNzJztcbmltcG9ydCAnLi4vYXNzZXRzL2NhcmQubGVzcyc7XG5pbXBvcnQge1xuICBTSVRFX1RJVExFLFxuICBTSVRFX0RFU0MsXG4gIEZBVklDT05fUEFUSCxcbiAgTEFSR0VfSUNPTl9QQVRILFxuICBTSVRFX1VSTCxcbn0gZnJvbSAnLi4vY29uc3RhbnRzJztcblxuaW1wb3J0IHsgZ2V0UmVsYXRpdmVQYXRoIH0gZnJvbSAnLi4vdXRpbHMnO1xuXG50eXBlIFRQcm9wcyA9IHtcbiAgdGl0bGU/OiBzdHJpbmc7XG4gIGNoaWxkcmVuOiBSZWFjdC5SZWFjdE5vZGU7XG4gIHN0eWxlPzogUmVhY3QuQ1NTUHJvcGVydGllcztcbn07XG5cbmNvbnN0IENhcmRMYXlvdXQ6IFJlYWN0LkZ1bmN0aW9uQ29tcG9uZW50PFRQcm9wcz4gPSAoe1xuICBjaGlsZHJlbixcbiAgdGl0bGUgPSBTSVRFX1RJVExFLFxuICBzdHlsZSxcbn0pID0+IChcbiAgPExheW91dCBzdHlsZT17c3R5bGV9PlxuICAgIDxIZWFkPlxuICAgICAgPHRpdGxlPnt0aXRsZX08L3RpdGxlPlxuICAgICAgPG1ldGEgY2hhclNldD1cInV0Zi04XCIgLz5cbiAgICAgIDxtZXRhIG5hbWU9XCJ2aWV3cG9ydFwiIGNvbnRlbnQ9XCJpbml0aWFsLXNjYWxlPTEuMCwgd2lkdGg9ZGV2aWNlLXdpZHRoXCIgLz5cbiAgICAgIDxtZXRhIG5hbWU9XCJsYW5ndWFnZVwiIGNvbnRlbnQ9XCJlblwiIC8+XG4gICAgICA8bWV0YSBuYW1lPVwidmlld3BvcnRcIiBjb250ZW50PVwid2lkdGg9ZGV2aWNlLXdpZHRoLCBpbml0aWFsLXNjYWxlPTEuMFwiIC8+XG4gICAgICA8bWV0YSBuYW1lPVwiZGVzY3JpcHRpb25cIiBjb250ZW50PXtTSVRFX0RFU0N9IC8+XG4gICAgICA8bGluayByZWw9XCJpY29uXCIgdHlwZT1cImltYWdlL3gtaWNvblwiIGhyZWY9e0ZBVklDT05fUEFUSH0gLz5cbiAgICAgIDxsaW5rIHJlbD1cImFwcGxlLXRvdWNoLWljb25cIiBocmVmPXtMQVJHRV9JQ09OX1BBVEh9IC8+XG4gICAgICA8bWV0YSBwcm9wZXJ0eT1cIm9nOnVybFwiIGNvbnRlbnQ9e1NJVEVfVVJMfSAvPlxuICAgICAgPG1ldGEgcHJvcGVydHk9XCJvZzp0aXRsZVwiIGNvbnRlbnQ9e1NJVEVfVElUTEV9IC8+XG4gICAgICA8bWV0YSBwcm9wZXJ0eT1cIm9nOmRlc2NyaXB0aW9uXCIgY29udGVudD17U0lURV9ERVNDfSAvPlxuICAgICAgPG1ldGEgcHJvcGVydHk9XCJvZzppbWFnZVwiIGNvbnRlbnQ9e0xBUkdFX0lDT05fUEFUSH0gLz5cbiAgICAgIDxtZXRhIG5hbWU9XCJhcHBsZS1tb2JpbGUtd2ViLWFwcC1jYXBhYmxlXCIgY29udGVudD1cInllc1wiIC8+XG4gICAgICA8bWV0YSBuYW1lPVwiYXBwbGUtbW9iaWxlLXdlYi1hcHAtc3RhdHVzLWJhci1zdHlsZVwiIGNvbnRlbnQ9XCJibGFja1wiIC8+XG4gICAgPC9IZWFkPlxuICAgIDxMYXlvdXQuSGVhZGVyXG4gICAgICBzdHlsZT17e1xuICAgICAgICBiYWNrZ3JvdW5kOiAncmdiKDIyLCAyOCwgNTMpJyxcbiAgICAgICAgZGlzcGxheTogJ2ZsZXgnLFxuICAgICAgICBqdXN0aWZ5Q29udGVudDogJ2NlbnRlcicsXG4gICAgICAgIGFsaWduSXRlbXM6ICdjZW50ZXInLFxuICAgICAgfX1cbiAgICA+XG4gICAgICA8aW1nXG4gICAgICAgIHNyYz17Z2V0UmVsYXRpdmVQYXRoKCcvc3RhdGljL2xvZ29fQmlpTWVAMy5wbmcnKX1cbiAgICAgICAgYWx0PVwibG9nb1wiXG4gICAgICAgIHN0eWxlPXt7IGhlaWdodDogJzEzMCUnIH19XG4gICAgICAvPlxuICAgIDwvTGF5b3V0LkhlYWRlcj5cbiAgICA8TGF5b3V0LkNvbnRlbnQ+XG4gICAgICA8Um93IHR5cGU9XCJmbGV4XCIganVzdGlmeT1cImNlbnRlclwiPlxuICAgICAgICA8Q29sIHhzPXsyMH0gbGc9ezEyfT5cbiAgICAgICAgICB7Y2hpbGRyZW59XG4gICAgICAgIDwvQ29sPlxuICAgICAgPC9Sb3c+XG4gICAgPC9MYXlvdXQuQ29udGVudD5cbiAgICB7Z2xvYmFsU3R5bGVzfVxuICA8L0xheW91dD5cbik7XG5cbmNvbnN0IGdsb2JhbFN0eWxlcyA9IChcbiAgPHN0eWxlIGpzeCBnbG9iYWw+e2BcbiAgICBodG1sLFxuICAgIGJvZHkge1xuICAgICAgbWFyZ2luOiAwO1xuICAgICAgcGFkZGluZzogMDtcbiAgICB9XG5cbiAgICBoMSB7XG4gICAgICBmb250LXdlaWdodDogNDAwO1xuICAgICAgZm9udC1zaXplOiAyLjVyZW07XG4gICAgICBsZXR0ZXItc3BhY2luZzogMC4xcmVtO1xuICAgICAgbWFyZ2luLXRvcDogMTJweDtcbiAgICB9XG4gICAgcCB7XG4gICAgICBmb250LXNpemU6IDIwcHg7XG4gICAgfVxuICBgfTwvc3R5bGU+XG4pO1xuXG5leHBvcnQgZGVmYXVsdCBDYXJkTGF5b3V0O1xuIl19 */\n/*@ sourceURL=/Users/tse/Code/VisuallyLab/BiiMe-store-web/layouts/Card.tsx */",
   __self: undefined
 });
 /* harmony default export */ __webpack_exports__["default"] = (CardLayout);
@@ -20962,7 +20988,7 @@ function TaipeiOrTainanCard(_ref) {
     style: style,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 49
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_Section__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -20971,7 +20997,7 @@ function TaipeiOrTainanCard(_ref) {
     alignItems: "flex-start",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 50
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(antd_lib_tabs__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -20979,7 +21005,7 @@ function TaipeiOrTainanCard(_ref) {
     size: "large",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 51
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(antd_lib_tabs__WEBPACK_IMPORTED_MODULE_1___default.a.TabPane, {
@@ -20987,21 +21013,21 @@ function TaipeiOrTainanCard(_ref) {
     key: "1",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 52
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_ClaimCard__WEBPACK_IMPORTED_MODULE_5__["default"], {
     card: card,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 53
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_Discounts__WEBPACK_IMPORTED_MODULE_6__["default"], {
     discounts: _fakeData__WEBPACK_IMPORTED_MODULE_9__["discounts"],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 54
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(antd_lib_tabs__WEBPACK_IMPORTED_MODULE_1___default.a.TabPane, {
@@ -21009,14 +21035,14 @@ function TaipeiOrTainanCard(_ref) {
     key: "2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 56
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_components_Profile__WEBPACK_IMPORTED_MODULE_7__["default"], {
     user: user,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 57
     },
     __self: this
   })))));
@@ -21033,7 +21059,7 @@ TaipeiOrTainanCard.getInitialProps = function (_ref2) {
             background: 'rgba(249, 121, 81, 0.42)'
           },
           card: _fakeData__WEBPACK_IMPORTED_MODULE_9__["tainanCard"],
-          user: {
+          userInject: {
             issuerName: 'Tainan City Government'
           }
         };
@@ -21046,7 +21072,7 @@ TaipeiOrTainanCard.getInitialProps = function (_ref2) {
             background: 'rgba(31, 172, 227, 0.42)'
           },
           card: _fakeData__WEBPACK_IMPORTED_MODULE_9__["taipeiCard"],
-          user: {
+          userInject: {
             issuerName: 'Taipei City Government'
           }
         };
@@ -21079,13 +21105,15 @@ TaipeiOrTainanCard.getInitialProps = function (_ref2) {
 /*!******************!*\
   !*** ./utils.ts ***!
   \******************/
-/*! exports provided: splitOnFirst, parseQs */
+/*! exports provided: getRelativePath, splitOnFirst, parseQs */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getRelativePath", function() { return getRelativePath; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "splitOnFirst", function() { return splitOnFirst; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "parseQs", function() { return parseQs; });
+/* harmony import */ var _environment__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./environment */ "./environment.ts");
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _nonIterableRest(); }
 
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance"); }
@@ -21094,6 +21122,10 @@ function _iterableToArrayLimit(arr, i) { var _arr = []; var _n = true; var _d = 
 
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
+
+function getRelativePath(path) {
+  return _environment__WEBPACK_IMPORTED_MODULE_0__["GITHUB"] ? "/BiiMe-store-web/".concat(path) : path;
+}
 function splitOnFirst(input, separator) {
   if (separator === '') {
     return [input];
