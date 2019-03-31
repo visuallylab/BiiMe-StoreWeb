@@ -12,6 +12,8 @@ import {
   SITE_URL,
 } from '../constants';
 
+import { getRelativePath } from '../utils';
+
 type TProps = {
   title?: string;
   children: React.ReactNode;
@@ -49,7 +51,7 @@ const CardLayout: React.FunctionComponent<TProps> = ({
       }}
     >
       <img
-        src={require('../static/logo_BiiMe@3.png')}
+        src={getRelativePath('/static/logo_BiiMe@3.png')}
         alt="logo"
         style={{ height: '130%' }}
       />

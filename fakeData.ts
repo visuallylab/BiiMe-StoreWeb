@@ -1,21 +1,23 @@
+import { getRelativePath } from './utils';
+
 export const discounts = [
   {
-    cover: require('./static/cover_comebuy.png'),
+    cover: getRelativePath('/static/cover_comebuy.png'),
     storeName: 'Comebuy',
     discountText: '20% off on bubble tea',
   },
   {
-    cover: require('./static/cover_moleskine.jpeg'),
+    cover: getRelativePath('/static/cover_moleskine.jpeg'),
     storeName: 'Moleskine',
     discountText: '5% off on classic notebook',
   },
   {
-    cover: require('./static/cover_ikea.jpeg'),
+    cover: getRelativePath('/static/cover_ikea.jpeg'),
     storeName: 'Ikea',
     discountText: '10% off on food',
   },
   {
-    cover: require('./static/cover_starbucks.jpeg'),
+    cover: getRelativePath('/static/cover_starbucks.jpeg'),
     storeName: 'Starbucks',
     discountText: 'buy caffe and get one free',
   },
@@ -27,13 +29,13 @@ export const fakeUser = {
   certificationName: 'Course Certification',
   certificatedAt: '2019-03-26',
   expiredAt: '2020-04-05',
-  issuerName: 'Tainan City Government',
+  issuerName: '',
   transactionHash: '******',
 };
 
 export const taipeiCard = {
   name: 'Taipei City Card',
-  coverSrc: require('./static/taipei_card.png'),
+  coverSrc: getRelativePath('/static/taipei_card.png'),
   description: `description #
   quisque tempus vehicula enim. Duis ut dolor nec augue blandit mattis
   in sed lectus. Cras vehicula tincidunt massa, in gravida libero
@@ -42,7 +44,7 @@ export const taipeiCard = {
 
 export const tainanCard = {
   name: 'Tainan City Card',
-  coverSrc: require('./static/tainan_card.png'),
+  coverSrc: getRelativePath('/static/tainan_card.png'),
   description: `description #
   quisque tempus vehicula enim. Duis ut dolor nec augue blandit mattis
   in sed lectus. Cras vehicula tincidunt massa, in gravida libero

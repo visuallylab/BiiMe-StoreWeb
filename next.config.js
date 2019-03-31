@@ -6,11 +6,10 @@ const fs = require('fs');
 const path = require('path');
 const Dotenv = require('dotenv-webpack');
 const withBundleAnalyzer = require('@zeit/next-bundle-analyzer');
-const withImages = require('next-images');
 
 require('dotenv').config();
 
-const DEV = process.env.NODE_ENV === 'development';
+const GITHUB = process.env.DEPLOY_ENV === 'github';
 
 // Where your antd-custom.less file lives
 const themeVariables = lessToJS(
@@ -24,59 +23,53 @@ if (typeof require !== 'undefined') {
 
 module.exports = withBundleAnalyzer(
   withTypescript(
-    withImages(
-      withLess({
-        exportPathMap: function() {
-          return {
-            '/': { page: '/' },
-            '/card/taipei-card': {
-              page: '/card/taipeiortainan-card',
-              query: { certificationName: 'Taipei Card', did: '', name: '' },
-            },
-            '/card/tainan-card': {
-              page: '/card/taipeiortainan-card',
-              query: { certificationName: 'Tainan Card', did: '', name: '' },
-            },
-          };
-        },
-        assetPrefix: !DEV ? `/${process.env.PROJ_NAME}/` : '',
-        analyzeServer: ['server', 'both'].includes(process.env.BUNDLE_ANALYZE),
-        analyzeBrowser: ['browser', 'both'].includes(
-          process.env.BUNDLE_ANALYZE,
-        ),
-        bundleAnalyzerConfig: {
-          server: {
-            analyzerMode: 'static',
-            reportFilename: '../bundles/server.html',
+    withLess({
+      exportPathMap: function() {
+        return {
+          '/': { page: '/' },
+          '/card/taipei-card': {
+            page: '/card/taipeiortainan-card',
+            query: { certificationName: 'Taipei Card', did: '', name: '' },
           },
-          browser: {
-            analyzerMode: 'static',
-            reportFilename: '../bundles/client.html',
+          '/card/tainan-card': {
+            page: '/card/taipeiortainan-card',
+            query: { certificationName: 'Tainan Card', did: '', name: '' },
           },
+        };
+      },
+      assetPrefix: GITHUB ? '/BiiMe-store-web/' : '',
+      analyzeServer: ['server', 'both'].includes(process.env.BUNDLE_ANALYZE),
+      analyzeBrowser: ['browser', 'both'].includes(process.env.BUNDLE_ANALYZE),
+      bundleAnalyzerConfig: {
+        server: {
+          analyzerMode: 'static',
+          reportFilename: '../bundles/server.html',
         },
-        lessLoaderOptions: {
-          javascriptEnabled: true,
-          modifyVars: themeVariables, // make your antd custom effective
+        browser: {
+          analyzerMode: 'static',
+          reportFilename: '../bundles/client.html',
         },
-        webpack: (config, { isServer, buildId, dev }) => {
-          config.plugins = config.plugins || [];
-          config.resolve.extensions = config.resolve.extensions.concat([
-            '.less',
-          ]);
+      },
+      lessLoaderOptions: {
+        javascriptEnabled: true,
+        modifyVars: themeVariables, // make your antd custom effective
+      },
+      webpack: (config, { isServer, buildId, dev }) => {
+        config.plugins = config.plugins || [];
+        config.resolve.extensions = config.resolve.extensions.concat(['.less']);
 
-          config.plugins = [
-            ...config.plugins,
+        config.plugins = [
+          ...config.plugins,
 
-            // Read the .env file
-            new Dotenv({
-              path: path.join(__dirname, '.env'),
-              systemvars: true,
-            }),
-          ];
+          // Read the .env file
+          new Dotenv({
+            path: path.join(__dirname, '.env'),
+            systemvars: true,
+          }),
+        ];
 
-          return config;
-        },
-      }),
-    ),
+        return config;
+      },
+    }),
   ),
 );

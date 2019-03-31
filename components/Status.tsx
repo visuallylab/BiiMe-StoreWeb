@@ -1,5 +1,3 @@
-import { Icon } from 'antd';
-
 type TProps = {
   status: string;
 };

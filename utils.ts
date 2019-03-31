@@ -1,3 +1,9 @@
+import { GITHUB } from './environment';
+
+export function getRelativePath(path: string) {
+  return GITHUB ? `/BiiMe-store-web/${path}` : path;
+}
+
 export function splitOnFirst(input: string, separator: string) {
   if (separator === '') {
     return [input];
