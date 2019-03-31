@@ -24,32 +24,32 @@ export default function Profile({ user }: TProps) {
         />
       </div>
       <div className="item">
-        <span className="title">Did:&nbsp;</span>
-        <span>{user.did}</span>
+        <div className="title">Did:&nbsp;</div>
+        <div>{user.did}</div>
       </div>
       <div className="item">
-        <span className="title">Name:&nbsp;</span>
-        <span>{user.name}</span>
+        <div className="title">Name:&nbsp;</div>
+        <div>{user.name}</div>
       </div>
       <div className="item">
-        <span className="title">Certification Name:&nbsp;</span>
-        <span>{user.certificationName}</span>
+        <div className="title">Certification Name:&nbsp;</div>
+        <div>{user.certificationName}</div>
       </div>
       <div className="item">
-        <span className="title">Certificated At:&nbsp;</span>
-        <span>{user.certificatedAt}</span>
+        <div className="title">Certificated At:&nbsp;</div>
+        <div>{user.certificatedAt}</div>
       </div>
       <div className="item">
-        <span className="title">Expired At:&nbsp;</span>
-        <span>{user.expiredAt}</span>
+        <div className="title">Expired At:&nbsp;</div>
+        <div>{user.expiredAt}</div>
       </div>
       <div className="item">
-        <span className="title">Issuer Name:&nbsp;</span>
-        <span>{user.issuerName}</span>
+        <div className="title">Issuer Name:&nbsp;</div>
+        <div>{user.issuerName}</div>
       </div>
       <div className="item">
-        <span className="title">Transaction Hash:&nbsp;</span>
-        <span>{user.transactionHash}</span>
+        <div className="title">Transaction Hash:&nbsp;</div>
+        <div>{user.transactionHash}</div>
       </div>
       <style jsx>{`
         .container {
@@ -67,11 +67,17 @@ export default function Profile({ user }: TProps) {
         .item {
           display: flex;
           align-items: center;
+          flex-wrap: wrap;
           color: #7f7f7f;
           padding: 12px 0;
           font-size: 14px;
           line-height: 1.2;
           border-bottom: solid 0.5px;
+        }
+
+        .item > div {
+          max-width: 100%;
+          word-wrap: break-word;
         }
 
         .item:last-child {
