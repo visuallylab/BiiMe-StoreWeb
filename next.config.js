@@ -29,8 +29,14 @@ module.exports = withBundleAnalyzer(
         exportPathMap: function() {
           return {
             '/': { page: '/' },
-            '/card/taipei-card': { page: '/card/taipei-card' },
-            '/card/tainan-card': { page: '/card/tainan-card' },
+            '/card/taipei-card': {
+              page: '/card/taipeiortainan-card',
+              query: { certificationName: 'Taipei Card', did: '', name: '' },
+            },
+            '/card/tainan-card': {
+              page: '/card/taipeiortainan-card',
+              query: { certificationName: 'Tainan Card', did: '', name: '' },
+            },
           };
         },
         assetPrefix: !DEV ? `/${process.env.PROJ_NAME}/` : '',

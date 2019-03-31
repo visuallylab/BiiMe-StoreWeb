@@ -67,6 +67,12 @@ const CardLayout: React.FunctionComponent<TProps> = ({
 
 const globalStyles = (
   <style jsx global>{`
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
     h1 {
       font-weight: 400;
       font-size: 2.5rem;
@@ -75,17 +81,6 @@ const globalStyles = (
     }
     p {
       font-size: 20px;
-    }
-
-    @media only screen and (max-width: 768px) {
-      h1 {
-        font-size: 1.5rem;
-        letter-spacing: inherit;
-      }
-      p {
-        font-weight: 300;
-        font-size: 20px;
-      }
     }
   `}</style>
 );

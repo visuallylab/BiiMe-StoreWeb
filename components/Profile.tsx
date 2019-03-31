@@ -8,7 +8,6 @@ export type TUser = {
   expiredAt: string;
   issuerName: string;
   transactionHash: string;
-  imageChecksum: string;
 };
 
 type TProps = {
@@ -47,10 +46,6 @@ export default function Profile({ user }: TProps) {
       <div className="item">
         <span className="title">Issuer Name:&nbsp;</span>
         <span>{user.issuerName}</span>
-      </div>
-      <div className="item">
-        <span className="title">Image Checksum:&nbsp;</span>
-        <span>{user.imageChecksum}</span>
       </div>
       <div className="item">
         <span className="title">Transaction Hash:&nbsp;</span>

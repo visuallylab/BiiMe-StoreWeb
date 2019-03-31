@@ -26,14 +26,13 @@ export const fakeUser = {
   name: 'Chihusan',
   certificationName: 'Course Certification',
   certificatedAt: '2019-03-26',
-  expiredAt: '2019-04-05',
-  issuerName: 'National Cheng Kung University',
-  transactionHash: 'xxx',
-  imageChecksum: 'xxxxxx',
+  expiredAt: '2020-04-05',
+  issuerName: 'Tainan City Government',
+  transactionHash: '******',
 };
 
 export const taipeiCard = {
-  name: 'Taipei Card',
+  name: 'Taipei City Card',
   coverSrc: require('./static/taipei_card.png'),
   description: `description #
   quisque tempus vehicula enim. Duis ut dolor nec augue blandit mattis
@@ -42,7 +41,7 @@ export const taipeiCard = {
 };
 
 export const tainanCard = {
-  name: 'Tainan Card',
+  name: 'Tainan City Card',
   coverSrc: require('./static/tainan_card.png'),
   description: `description #
   quisque tempus vehicula enim. Duis ut dolor nec augue blandit mattis
