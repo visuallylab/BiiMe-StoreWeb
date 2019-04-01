@@ -22,7 +22,8 @@ const CardLayout: React.FunctionComponent<TProps> = ({
 }) => (
   <Layout style={style}>
     <Head>
-      <Meta title={title} />
+      <title>{title}</title>
+      <Meta />
     </Head>
     <Layout.Header
       style={{

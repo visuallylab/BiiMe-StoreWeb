@@ -21,7 +21,8 @@ const MainLayout: React.FunctionComponent<IProps> = ({
 }) => (
   <Layout>
     <Head>
-      <Meta title={title} />
+      <title>{title}</title>
+      <Meta />
     </Head>
     <Layout.Header className={`${className} nav-fixed`}>
       <img
@@ -30,7 +31,7 @@ const MainLayout: React.FunctionComponent<IProps> = ({
         className={`${className} nav-logo`}
       />
       <div>
-        <Link href="/store-list">
+        <Link href={getRelativePath('/store-list')}>
           <a className={`${className} nav-link`}>Store list</a>
         </Link>
       </div>
