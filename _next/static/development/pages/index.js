@@ -57,7 +57,7 @@ var Section = function Section(_ref) {
 /*!****************************!*\
   !*** ./constants/index.ts ***!
   \****************************/
-/*! exports provided: PROJ_NAME, SITE_TITLE, SITE_DESC, SITE_URL, FAVICON_PATH, LARGE_ICON_PATH, NAV_TITLE */
+/*! exports provided: PROJ_NAME, SITE_TITLE, SITE_DESC, SITE_URL, FAVICON_PATH, LARGE_ICON_PATH */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -68,16 +68,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SITE_URL", function() { return SITE_URL; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FAVICON_PATH", function() { return FAVICON_PATH; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LARGE_ICON_PATH", function() { return LARGE_ICON_PATH; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NAV_TITLE", function() { return NAV_TITLE; });
+/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils */ "./utils.ts");
 /* head meta tag data */
-var DEV = "development" === 'development';
+
 var PROJ_NAME = 'BiiMe-store-web';
 var SITE_TITLE = 'BiiMe';
 var SITE_DESC = 'BiiMe';
-var SITE_URL = 'localhost';
-var FAVICON_PATH = DEV ? '/static/favicon-biime-32x32.ico' : "/".concat(PROJ_NAME, "/static/favicon-biime-32x32.ico");
-var LARGE_ICON_PATH = DEV ? '/static/large-icon.png' : "/".concat(PROJ_NAME, "/static/logo_BiiMe@3.png");
-var NAV_TITLE = 'nav title';
+var SITE_URL = 'http://demokits.biilabs.io:5003/';
+var FAVICON_PATH = Object(_utils__WEBPACK_IMPORTED_MODULE_0__["getRelativePath"])('/static/favicon-biime-32x32.ico');
+var LARGE_ICON_PATH = Object(_utils__WEBPACK_IMPORTED_MODULE_0__["getRelativePath"])('/static/logo_BiiMe@3.png');
 
 /***/ }),
 
@@ -133,8 +132,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_9__);
 /* harmony import */ var _assets_style_less__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../assets/style.less */ "./assets/style.less");
 /* harmony import */ var _assets_style_less__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_assets_style_less__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../constants */ "./constants/index.ts");
-/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../utils */ "./utils.ts");
+/* harmony import */ var _Meta__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./Meta */ "./layouts/Meta.tsx");
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../constants */ "./constants/index.ts");
+/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../utils */ "./utils.ts");
 
 
 
@@ -150,197 +150,70 @@ var _jsxFileName = "/Users/tse/Code/VisuallyLab/BiiMe-store-web/layouts/Main.tsx
 
 
 
+
 var MainLayout = function MainLayout(_ref) {
   var children = _ref.children,
       _ref$title = _ref.title,
-      title = _ref$title === void 0 ? _constants__WEBPACK_IMPORTED_MODULE_11__["SITE_TITLE"] : _ref$title;
+      title = _ref$title === void 0 ? _constants__WEBPACK_IMPORTED_MODULE_12__["SITE_TITLE"] : _ref$title;
   return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(antd_lib_layout__WEBPACK_IMPORTED_MODULE_5___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 22
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_8___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 23
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("title", {
+  }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_Meta__WEBPACK_IMPORTED_MODULE_11__["default"], {
+    title: title,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
-    },
-    __self: this
-  }, title), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("meta", {
-    charSet: "utf-8",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("meta", {
-    name: "viewport",
-    content: "initial-scale=1.0, width=device-width",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("meta", {
-    name: "language",
-    content: "en",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("meta", {
-    name: "viewport",
-    content: "width=device-width, initial-scale=1.0",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("meta", {
-    name: "description",
-    content: _constants__WEBPACK_IMPORTED_MODULE_11__["SITE_DESC"],
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("link", {
-    rel: "icon",
-    type: "image/x-icon",
-    href: _constants__WEBPACK_IMPORTED_MODULE_11__["FAVICON_PATH"],
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("link", {
-    rel: "apple-touch-icon",
-    href: _constants__WEBPACK_IMPORTED_MODULE_11__["LARGE_ICON_PATH"],
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("meta", {
-    property: "og:url",
-    content: _constants__WEBPACK_IMPORTED_MODULE_11__["SITE_URL"],
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("meta", {
-    property: "og:title",
-    content: _constants__WEBPACK_IMPORTED_MODULE_11__["SITE_TITLE"],
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("meta", {
-    property: "og:description",
-    content: _constants__WEBPACK_IMPORTED_MODULE_11__["SITE_DESC"],
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("meta", {
-    property: "og:image",
-    content: _constants__WEBPACK_IMPORTED_MODULE_11__["LARGE_ICON_PATH"],
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("meta", {
-    name: "apple-mobile-web-app-capable",
-    content: "yes",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("meta", {
-    name: "apple-mobile-web-app-status-bar-style",
-    content: "black",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 24
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(antd_lib_layout__WEBPACK_IMPORTED_MODULE_5___default.a.Header, {
     className: "".concat(className, " nav-fixed"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 26
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
-    src: Object(_utils__WEBPACK_IMPORTED_MODULE_12__["getRelativePath"])('/static/logo.svg'),
+    src: Object(_utils__WEBPACK_IMPORTED_MODULE_13__["getRelativePath"])('/static/logo_BiiMe@3.png'),
     alt: "logo",
     className: "".concat(className, " nav-logo"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 27
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("span", {
-    className: "".concat(className, " nav-title"),
+  }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
-    },
-    __self: this
-  }, _constants__WEBPACK_IMPORTED_MODULE_11__["NAV_TITLE"])), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 32
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
-    href: "/",
+    href: "/store-list",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
+      lineNumber: 33
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
+    className: "".concat(className, " nav-link"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 33
     },
     __self: this
-  }, "Home")), ' | ', react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
-    href: "/about",
+  }, "Store list")))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(antd_lib_layout__WEBPACK_IMPORTED_MODULE_5___default.a.Content, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("a", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 60
-    },
-    __self: this
-  }, "About")))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(antd_lib_layout__WEBPACK_IMPORTED_MODULE_5___default.a.Content, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 64
+      lineNumber: 36
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(antd_lib_row__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -348,7 +221,7 @@ var MainLayout = function MainLayout(_ref) {
     justify: "center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65
+      lineNumber: 37
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(antd_lib_col__WEBPACK_IMPORTED_MODULE_3___default.a, {
@@ -356,34 +229,160 @@ var MainLayout = function MainLayout(_ref) {
     lg: 12,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66
+      lineNumber: 38
     },
     __self: this
-  }, children))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(antd_lib_layout__WEBPACK_IMPORTED_MODULE_5___default.a.Footer, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 71
-    },
-    __self: this
-  }, " Footer is here "), globalStyle, styles);
+  }, children))), globalStyle, styles);
 };
 
 var _styles$className = {
   styles: react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_6___default.a, {
-    styleId: "4242595682",
-    css: ".nav-fixed.jsx-4242595682{position:fixed;z-index:2;width:100%;background-color:rgba(240,242,245,0.95);height:auto;padding:12px 36px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}.nav-logo.jsx-4242595682{height:2.5rem;}.nav-title.jsx-4242595682{line-height:2.5rem;display:inline-block;font-size:15px;margin-left:10px;-webkit-transform:translateY(5px);-ms-transform:translateY(5px);transform:translateY(5px);}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy90c2UvQ29kZS9WaXN1YWxseUxhYi9CaWlNZS1zdG9yZS13ZWIvbGF5b3V0cy9NYWluLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUE0RXlDLEFBR29CLEFBYUQsQUFJSyxjQUhyQixDQWJZLElBaUJXLE1BaEJWLFdBQ2dDLElBZ0I1QixlQUNFLGlCQUNTLElBakJkLFlBQ00sa0JBQ0wsd0RBZ0JmLGtCQWZnQyxtSEFDZix5REFDSSw2RkFDckIiLCJmaWxlIjoiL1VzZXJzL3RzZS9Db2RlL1Zpc3VhbGx5TGFiL0JpaU1lLXN0b3JlLXdlYi9sYXlvdXRzL01haW4udHN4Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcbmltcG9ydCBIZWFkIGZyb20gJ25leHQvaGVhZCc7XG5pbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnO1xuaW1wb3J0IGNzcyBmcm9tICdzdHlsZWQtanN4L2Nzcyc7XG5pbXBvcnQgeyBDb2wsIExheW91dCwgUm93IH0gZnJvbSAnYW50ZCc7XG5cbmltcG9ydCAnLi4vYXNzZXRzL3N0eWxlLmxlc3MnO1xuaW1wb3J0IHtcbiAgU0lURV9USVRMRSxcbiAgU0lURV9ERVNDLFxuICBOQVZfVElUTEUsXG4gIEZBVklDT05fUEFUSCxcbiAgTEFSR0VfSUNPTl9QQVRILFxuICBTSVRFX1VSTCxcbn0gZnJvbSAnLi4vY29uc3RhbnRzJztcblxuaW1wb3J0IHsgZ2V0UmVsYXRpdmVQYXRoIH0gZnJvbSAnLi4vdXRpbHMnO1xuXG5pbnRlcmZhY2UgSVByb3BzIHtcbiAgdGl0bGU/OiBzdHJpbmc7XG4gIGNoaWxkcmVuOiBSZWFjdC5SZWFjdE5vZGU7XG59XG5cbmNvbnN0IE1haW5MYXlvdXQ6IFJlYWN0LkZ1bmN0aW9uQ29tcG9uZW50PElQcm9wcz4gPSAoe1xuICBjaGlsZHJlbixcbiAgdGl0bGUgPSBTSVRFX1RJVExFLFxufSkgPT4gKFxuICA8TGF5b3V0PlxuICAgIDxIZWFkPlxuICAgICAgPHRpdGxlPnt0aXRsZX08L3RpdGxlPlxuICAgICAgPG1ldGEgY2hhclNldD1cInV0Zi04XCIgLz5cbiAgICAgIDxtZXRhIG5hbWU9XCJ2aWV3cG9ydFwiIGNvbnRlbnQ9XCJpbml0aWFsLXNjYWxlPTEuMCwgd2lkdGg9ZGV2aWNlLXdpZHRoXCIgLz5cbiAgICAgIDxtZXRhIG5hbWU9XCJsYW5ndWFnZVwiIGNvbnRlbnQ9XCJlblwiIC8+XG4gICAgICA8bWV0YSBuYW1lPVwidmlld3BvcnRcIiBjb250ZW50PVwid2lkdGg9ZGV2aWNlLXdpZHRoLCBpbml0aWFsLXNjYWxlPTEuMFwiIC8+XG4gICAgICA8bWV0YSBuYW1lPVwiZGVzY3JpcHRpb25cIiBjb250ZW50PXtTSVRFX0RFU0N9IC8+XG4gICAgICA8bGluayByZWw9XCJpY29uXCIgdHlwZT1cImltYWdlL3gtaWNvblwiIGhyZWY9e0ZBVklDT05fUEFUSH0gLz5cbiAgICAgIDxsaW5rIHJlbD1cImFwcGxlLXRvdWNoLWljb25cIiBocmVmPXtMQVJHRV9JQ09OX1BBVEh9IC8+XG4gICAgICA8bWV0YSBwcm9wZXJ0eT1cIm9nOnVybFwiIGNvbnRlbnQ9e1NJVEVfVVJMfSAvPlxuICAgICAgPG1ldGEgcHJvcGVydHk9XCJvZzp0aXRsZVwiIGNvbnRlbnQ9e1NJVEVfVElUTEV9IC8+XG4gICAgICA8bWV0YSBwcm9wZXJ0eT1cIm9nOmRlc2NyaXB0aW9uXCIgY29udGVudD17U0lURV9ERVNDfSAvPlxuICAgICAgPG1ldGEgcHJvcGVydHk9XCJvZzppbWFnZVwiIGNvbnRlbnQ9e0xBUkdFX0lDT05fUEFUSH0gLz5cbiAgICAgIDxtZXRhIG5hbWU9XCJhcHBsZS1tb2JpbGUtd2ViLWFwcC1jYXBhYmxlXCIgY29udGVudD1cInllc1wiIC8+XG4gICAgICA8bWV0YSBuYW1lPVwiYXBwbGUtbW9iaWxlLXdlYi1hcHAtc3RhdHVzLWJhci1zdHlsZVwiIGNvbnRlbnQ9XCJibGFja1wiIC8+XG4gICAgPC9IZWFkPlxuICAgIDxMYXlvdXQuSGVhZGVyIGNsYXNzTmFtZT17YCR7Y2xhc3NOYW1lfSBuYXYtZml4ZWRgfT5cbiAgICAgIDxzcGFuPlxuICAgICAgICA8aW1nXG4gICAgICAgICAgc3JjPXtnZXRSZWxhdGl2ZVBhdGgoJy9zdGF0aWMvbG9nby5zdmcnKX1cbiAgICAgICAgICBhbHQ9XCJsb2dvXCJcbiAgICAgICAgICBjbGFzc05hbWU9e2Ake2NsYXNzTmFtZX0gbmF2LWxvZ29gfVxuICAgICAgICAvPlxuICAgICAgICA8c3BhbiBjbGFzc05hbWU9e2Ake2NsYXNzTmFtZX0gbmF2LXRpdGxlYH0+e05BVl9USVRMRX08L3NwYW4+XG4gICAgICA8L3NwYW4+XG4gICAgICA8c3Bhbj5cbiAgICAgICAgPExpbmsgaHJlZj1cIi9cIj5cbiAgICAgICAgICA8YT5Ib21lPC9hPlxuICAgICAgICA8L0xpbms+XG4gICAgICAgIHsnIHwgJ31cbiAgICAgICAgPExpbmsgaHJlZj1cIi9hYm91dFwiPlxuICAgICAgICAgIDxhPkFib3V0PC9hPlxuICAgICAgICA8L0xpbms+XG4gICAgICA8L3NwYW4+XG4gICAgPC9MYXlvdXQuSGVhZGVyPlxuICAgIDxMYXlvdXQuQ29udGVudD5cbiAgICAgIDxSb3cgdHlwZT1cImZsZXhcIiBqdXN0aWZ5PVwiY2VudGVyXCI+XG4gICAgICAgIDxDb2wgeHM9ezIwfSBsZz17MTJ9PlxuICAgICAgICAgIHtjaGlsZHJlbn1cbiAgICAgICAgPC9Db2w+XG4gICAgICA8L1Jvdz5cbiAgICA8L0xheW91dC5Db250ZW50PlxuICAgIDxMYXlvdXQuRm9vdGVyPiBGb290ZXIgaXMgaGVyZSA8L0xheW91dC5Gb290ZXI+XG4gICAge2dsb2JhbFN0eWxlfVxuICAgIHtzdHlsZXN9XG4gIDwvTGF5b3V0PlxuKTtcblxuY29uc3QgeyBzdHlsZXMsIGNsYXNzTmFtZSB9ID0gY3NzLnJlc29sdmVgXG4gIC5uYXYtZml4ZWQge1xuICAgIHBvc2l0aW9uOiBmaXhlZDtcbiAgICB6LWluZGV4OiAyO1xuICAgIHdpZHRoOiAxMDAlO1xuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMjQwLCAyNDIsIDI0NSwgMC45NSk7XG4gICAgaGVpZ2h0OiBhdXRvO1xuICAgIHBhZGRpbmc6IDEycHggMzZweDtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbjtcbiAgICBmbGV4LXdyYXA6IHdyYXA7XG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgfVxuXG4gIC5uYXYtbG9nbyB7XG4gICAgaGVpZ2h0OiAyLjVyZW07XG4gIH1cblxuICAubmF2LXRpdGxlIHtcbiAgICBsaW5lLWhlaWdodDogMi41cmVtO1xuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgICBmb250LXNpemU6IDE1cHg7XG4gICAgbWFyZ2luLWxlZnQ6IDEwcHg7XG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDVweCk7XG4gIH1cblxuYDtcblxuY29uc3QgZ2xvYmFsU3R5bGUgPSAoXG4gIDxzdHlsZSBqc3g9e3RydWV9IGdsb2JhbD17dHJ1ZX0+e2BcbiAgICBoMSB7XG4gICAgICBmb250LXdlaWdodDogNDAwICFpbXBvcnRhbnQ7XG4gICAgICBmb250LXNpemU6IDIuNXJlbTtcbiAgICAgIGxldHRlci1zcGFjaW5nOiAwLjFyZW07XG4gICAgICBtYXJnaW4tdG9wOiAxMnB4O1xuICAgIH1cbiAgICBwIHtcbiAgICAgIGZvbnQtc2l6ZTogMjBweDtcbiAgICB9XG4gICAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiA3NjhweCkge1xuICAgICAgaDEge1xuICAgICAgICBmb250LXNpemU6IDEuNXJlbTtcbiAgICAgICAgbGV0dGVyLXNwYWNpbmc6IGluaGVyaXQ7XG4gICAgICB9XG4gICAgICBwIHtcbiAgICAgICAgZm9udC13ZWlnaHQ6IDMwMDtcbiAgICAgICAgZm9udC1zaXplOiAyMHB4O1xuICAgICAgfVxuICAgIH1cbiAgYH08L3N0eWxlPlxuKTtcblxuZXhwb3J0IGRlZmF1bHQgTWFpbkxheW91dDtcbiJdfQ== */\n/*@ sourceURL=/Users/tse/Code/VisuallyLab/BiiMe-store-web/layouts/Main.tsx */",
+    styleId: "1305379520",
+    css: ".nav-fixed.jsx-1305379520{position:fixed;z-index:2;width:100%;background-color:rgb(22,28,53);height:auto;padding:12px 36px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}.nav-logo.jsx-1305379520{width:4em;}.nav-link.jsx-1305379520{color:white;}.nav-title.jsx-1305379520{line-height:2.5rem;display:inline-block;font-size:15px;margin-left:10px;-webkit-transform:translateY(5px);-ms-transform:translateY(5px);transform:translateY(5px);}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy90c2UvQ29kZS9WaXN1YWxseUxhYi9CaWlNZS1zdG9yZS13ZWIvbGF5b3V0cy9NYWluLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUErQ3lDLEFBR29CLEFBYUwsQUFJRSxBQUlPLFVBUHJCLEVBSUEsR0FqQlksSUFxQlcsTUFwQlYsV0FDc0IsSUFvQmxCLGVBQ0UsWUFwQkwsS0FxQmMsT0FwQlIsa0JBQ0wsaUVBb0JmLFNBbkJnQyxtSEFDZix5REFDSSw2RkFDckIiLCJmaWxlIjoiL1VzZXJzL3RzZS9Db2RlL1Zpc3VhbGx5TGFiL0JpaU1lLXN0b3JlLXdlYi9sYXlvdXRzL01haW4udHN4Iiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcbmltcG9ydCBIZWFkIGZyb20gJ25leHQvaGVhZCc7XG5pbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnO1xuaW1wb3J0IGNzcyBmcm9tICdzdHlsZWQtanN4L2Nzcyc7XG5pbXBvcnQgeyBDb2wsIExheW91dCwgUm93IH0gZnJvbSAnYW50ZCc7XG5cbmltcG9ydCAnLi4vYXNzZXRzL3N0eWxlLmxlc3MnO1xuXG5pbXBvcnQgTWV0YSBmcm9tICcuL01ldGEnO1xuaW1wb3J0IHsgU0lURV9USVRMRSB9IGZyb20gJy4uL2NvbnN0YW50cyc7XG5pbXBvcnQgeyBnZXRSZWxhdGl2ZVBhdGggfSBmcm9tICcuLi91dGlscyc7XG5cbmludGVyZmFjZSBJUHJvcHMge1xuICB0aXRsZT86IHN0cmluZztcbiAgY2hpbGRyZW46IFJlYWN0LlJlYWN0Tm9kZTtcbn1cblxuY29uc3QgTWFpbkxheW91dDogUmVhY3QuRnVuY3Rpb25Db21wb25lbnQ8SVByb3BzPiA9ICh7XG4gIGNoaWxkcmVuLFxuICB0aXRsZSA9IFNJVEVfVElUTEUsXG59KSA9PiAoXG4gIDxMYXlvdXQ+XG4gICAgPEhlYWQ+XG4gICAgICA8TWV0YSB0aXRsZT17dGl0bGV9IC8+XG4gICAgPC9IZWFkPlxuICAgIDxMYXlvdXQuSGVhZGVyIGNsYXNzTmFtZT17YCR7Y2xhc3NOYW1lfSBuYXYtZml4ZWRgfT5cbiAgICAgIDxpbWdcbiAgICAgICAgc3JjPXtnZXRSZWxhdGl2ZVBhdGgoJy9zdGF0aWMvbG9nb19CaWlNZUAzLnBuZycpfVxuICAgICAgICBhbHQ9XCJsb2dvXCJcbiAgICAgICAgY2xhc3NOYW1lPXtgJHtjbGFzc05hbWV9IG5hdi1sb2dvYH1cbiAgICAgIC8+XG4gICAgICA8ZGl2PlxuICAgICAgICA8TGluayBocmVmPVwiL3N0b3JlLWxpc3RcIj48YSBjbGFzc05hbWU9e2Ake2NsYXNzTmFtZX0gbmF2LWxpbmtgfT5TdG9yZSBsaXN0PC9hPjwvTGluaz5cbiAgICAgIDwvZGl2PlxuICAgIDwvTGF5b3V0LkhlYWRlcj5cbiAgICA8TGF5b3V0LkNvbnRlbnQ+XG4gICAgICA8Um93IHR5cGU9XCJmbGV4XCIganVzdGlmeT1cImNlbnRlclwiPlxuICAgICAgICA8Q29sIHhzPXsyMH0gbGc9ezEyfT5cbiAgICAgICAgICB7Y2hpbGRyZW59XG4gICAgICAgIDwvQ29sPlxuICAgICAgPC9Sb3c+XG4gICAgPC9MYXlvdXQuQ29udGVudD5cbiAgICB7Z2xvYmFsU3R5bGV9XG4gICAge3N0eWxlc31cbiAgPC9MYXlvdXQ+XG4pO1xuXG5jb25zdCB7IHN0eWxlcywgY2xhc3NOYW1lIH0gPSBjc3MucmVzb2x2ZWBcbiAgLm5hdi1maXhlZCB7XG4gICAgcG9zaXRpb246IGZpeGVkO1xuICAgIHotaW5kZXg6IDI7XG4gICAgd2lkdGg6IDEwMCU7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogcmdiKDIyLCAyOCwgNTMpO1xuICAgIGhlaWdodDogYXV0bztcbiAgICBwYWRkaW5nOiAxMnB4IDM2cHg7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47XG4gICAgZmxleC13cmFwOiB3cmFwO1xuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gIH1cblxuICAubmF2LWxvZ28ge1xuICAgIHdpZHRoOiA0ZW07XG4gIH1cblxuICAubmF2LWxpbmsge1xuICAgIGNvbG9yOiB3aGl0ZTtcbiAgfVxuIFxuICAubmF2LXRpdGxlIHtcbiAgICBsaW5lLWhlaWdodDogMi41cmVtO1xuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgICBmb250LXNpemU6IDE1cHg7XG4gICAgbWFyZ2luLWxlZnQ6IDEwcHg7XG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDVweCk7XG4gIH1cblxuYDtcblxuY29uc3QgZ2xvYmFsU3R5bGUgPSAoXG4gIDxzdHlsZSBqc3g9e3RydWV9IGdsb2JhbD17dHJ1ZX0+e2BcbiAgICBoMSB7XG4gICAgICBmb250LXdlaWdodDogNDAwICFpbXBvcnRhbnQ7XG4gICAgICBmb250LXNpemU6IDIuNXJlbTtcbiAgICAgIGxldHRlci1zcGFjaW5nOiAwLjFyZW07XG4gICAgICBtYXJnaW4tdG9wOiAxMnB4O1xuICAgIH1cbiAgICBwIHtcbiAgICAgIGZvbnQtc2l6ZTogMjBweDtcbiAgICB9XG4gICAgQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiA3NjhweCkge1xuICAgICAgaDEge1xuICAgICAgICBmb250LXNpemU6IDEuNXJlbTtcbiAgICAgICAgbGV0dGVyLXNwYWNpbmc6IGluaGVyaXQ7XG4gICAgICB9XG4gICAgICBwIHtcbiAgICAgICAgZm9udC13ZWlnaHQ6IDMwMDtcbiAgICAgICAgZm9udC1zaXplOiAyMHB4O1xuICAgICAgfVxuICAgIH1cbiAgYH08L3N0eWxlPlxuKTtcblxuZXhwb3J0IGRlZmF1bHQgTWFpbkxheW91dDtcbiJdfQ== */\n/*@ sourceURL=/Users/tse/Code/VisuallyLab/BiiMe-store-web/layouts/Main.tsx */",
     __self: undefined
   }),
-  className: "jsx-4242595682"
+  className: "jsx-1305379520"
 },
     styles = _styles$className.styles,
     className = _styles$className.className;
 var globalStyle = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_6___default.a, {
   styleId: "1880338027",
-  css: "h1{font-weight:400 !important;font-size:2.5rem;-webkit-letter-spacing:0.1rem;-moz-letter-spacing:0.1rem;-ms-letter-spacing:0.1rem;letter-spacing:0.1rem;margin-top:12px;}p{font-size:20px;}@media only screen and (max-width:768px){h1{font-size:1.5rem;-webkit-letter-spacing:inherit;-moz-letter-spacing:inherit;-ms-letter-spacing:inherit;letter-spacing:inherit;}p{font-weight:300;font-size:20px;}}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy90c2UvQ29kZS9WaXN1YWxseUxhYi9CaWlNZS1zdG9yZS13ZWIvbGF5b3V0cy9NYWluLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUF5R21DLEFBR2tDLEFBTVosQUFJSSxBQUlELGVBUHBCLENBUW1CLENBSlEsVUFWUixJQWVqQixhQWRzQixrRkFVdEIsdUJBVGdCLGdCQUNsQiIsImZpbGUiOiIvVXNlcnMvdHNlL0NvZGUvVmlzdWFsbHlMYWIvQmlpTWUtc3RvcmUtd2ViL2xheW91dHMvTWFpbi50c3giLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuaW1wb3J0IEhlYWQgZnJvbSAnbmV4dC9oZWFkJztcbmltcG9ydCBMaW5rIGZyb20gJ25leHQvbGluayc7XG5pbXBvcnQgY3NzIGZyb20gJ3N0eWxlZC1qc3gvY3NzJztcbmltcG9ydCB7IENvbCwgTGF5b3V0LCBSb3cgfSBmcm9tICdhbnRkJztcblxuaW1wb3J0ICcuLi9hc3NldHMvc3R5bGUubGVzcyc7XG5pbXBvcnQge1xuICBTSVRFX1RJVExFLFxuICBTSVRFX0RFU0MsXG4gIE5BVl9USVRMRSxcbiAgRkFWSUNPTl9QQVRILFxuICBMQVJHRV9JQ09OX1BBVEgsXG4gIFNJVEVfVVJMLFxufSBmcm9tICcuLi9jb25zdGFudHMnO1xuXG5pbXBvcnQgeyBnZXRSZWxhdGl2ZVBhdGggfSBmcm9tICcuLi91dGlscyc7XG5cbmludGVyZmFjZSBJUHJvcHMge1xuICB0aXRsZT86IHN0cmluZztcbiAgY2hpbGRyZW46IFJlYWN0LlJlYWN0Tm9kZTtcbn1cblxuY29uc3QgTWFpbkxheW91dDogUmVhY3QuRnVuY3Rpb25Db21wb25lbnQ8SVByb3BzPiA9ICh7XG4gIGNoaWxkcmVuLFxuICB0aXRsZSA9IFNJVEVfVElUTEUsXG59KSA9PiAoXG4gIDxMYXlvdXQ+XG4gICAgPEhlYWQ+XG4gICAgICA8dGl0bGU+e3RpdGxlfTwvdGl0bGU+XG4gICAgICA8bWV0YSBjaGFyU2V0PVwidXRmLThcIiAvPlxuICAgICAgPG1ldGEgbmFtZT1cInZpZXdwb3J0XCIgY29udGVudD1cImluaXRpYWwtc2NhbGU9MS4wLCB3aWR0aD1kZXZpY2Utd2lkdGhcIiAvPlxuICAgICAgPG1ldGEgbmFtZT1cImxhbmd1YWdlXCIgY29udGVudD1cImVuXCIgLz5cbiAgICAgIDxtZXRhIG5hbWU9XCJ2aWV3cG9ydFwiIGNvbnRlbnQ9XCJ3aWR0aD1kZXZpY2Utd2lkdGgsIGluaXRpYWwtc2NhbGU9MS4wXCIgLz5cbiAgICAgIDxtZXRhIG5hbWU9XCJkZXNjcmlwdGlvblwiIGNvbnRlbnQ9e1NJVEVfREVTQ30gLz5cbiAgICAgIDxsaW5rIHJlbD1cImljb25cIiB0eXBlPVwiaW1hZ2UveC1pY29uXCIgaHJlZj17RkFWSUNPTl9QQVRIfSAvPlxuICAgICAgPGxpbmsgcmVsPVwiYXBwbGUtdG91Y2gtaWNvblwiIGhyZWY9e0xBUkdFX0lDT05fUEFUSH0gLz5cbiAgICAgIDxtZXRhIHByb3BlcnR5PVwib2c6dXJsXCIgY29udGVudD17U0lURV9VUkx9IC8+XG4gICAgICA8bWV0YSBwcm9wZXJ0eT1cIm9nOnRpdGxlXCIgY29udGVudD17U0lURV9USVRMRX0gLz5cbiAgICAgIDxtZXRhIHByb3BlcnR5PVwib2c6ZGVzY3JpcHRpb25cIiBjb250ZW50PXtTSVRFX0RFU0N9IC8+XG4gICAgICA8bWV0YSBwcm9wZXJ0eT1cIm9nOmltYWdlXCIgY29udGVudD17TEFSR0VfSUNPTl9QQVRIfSAvPlxuICAgICAgPG1ldGEgbmFtZT1cImFwcGxlLW1vYmlsZS13ZWItYXBwLWNhcGFibGVcIiBjb250ZW50PVwieWVzXCIgLz5cbiAgICAgIDxtZXRhIG5hbWU9XCJhcHBsZS1tb2JpbGUtd2ViLWFwcC1zdGF0dXMtYmFyLXN0eWxlXCIgY29udGVudD1cImJsYWNrXCIgLz5cbiAgICA8L0hlYWQ+XG4gICAgPExheW91dC5IZWFkZXIgY2xhc3NOYW1lPXtgJHtjbGFzc05hbWV9IG5hdi1maXhlZGB9PlxuICAgICAgPHNwYW4+XG4gICAgICAgIDxpbWdcbiAgICAgICAgICBzcmM9e2dldFJlbGF0aXZlUGF0aCgnL3N0YXRpYy9sb2dvLnN2ZycpfVxuICAgICAgICAgIGFsdD1cImxvZ29cIlxuICAgICAgICAgIGNsYXNzTmFtZT17YCR7Y2xhc3NOYW1lfSBuYXYtbG9nb2B9XG4gICAgICAgIC8+XG4gICAgICAgIDxzcGFuIGNsYXNzTmFtZT17YCR7Y2xhc3NOYW1lfSBuYXYtdGl0bGVgfT57TkFWX1RJVExFfTwvc3Bhbj5cbiAgICAgIDwvc3Bhbj5cbiAgICAgIDxzcGFuPlxuICAgICAgICA8TGluayBocmVmPVwiL1wiPlxuICAgICAgICAgIDxhPkhvbWU8L2E+XG4gICAgICAgIDwvTGluaz5cbiAgICAgICAgeycgfCAnfVxuICAgICAgICA8TGluayBocmVmPVwiL2Fib3V0XCI+XG4gICAgICAgICAgPGE+QWJvdXQ8L2E+XG4gICAgICAgIDwvTGluaz5cbiAgICAgIDwvc3Bhbj5cbiAgICA8L0xheW91dC5IZWFkZXI+XG4gICAgPExheW91dC5Db250ZW50PlxuICAgICAgPFJvdyB0eXBlPVwiZmxleFwiIGp1c3RpZnk9XCJjZW50ZXJcIj5cbiAgICAgICAgPENvbCB4cz17MjB9IGxnPXsxMn0+XG4gICAgICAgICAge2NoaWxkcmVufVxuICAgICAgICA8L0NvbD5cbiAgICAgIDwvUm93PlxuICAgIDwvTGF5b3V0LkNvbnRlbnQ+XG4gICAgPExheW91dC5Gb290ZXI+IEZvb3RlciBpcyBoZXJlIDwvTGF5b3V0LkZvb3Rlcj5cbiAgICB7Z2xvYmFsU3R5bGV9XG4gICAge3N0eWxlc31cbiAgPC9MYXlvdXQ+XG4pO1xuXG5jb25zdCB7IHN0eWxlcywgY2xhc3NOYW1lIH0gPSBjc3MucmVzb2x2ZWBcbiAgLm5hdi1maXhlZCB7XG4gICAgcG9zaXRpb246IGZpeGVkO1xuICAgIHotaW5kZXg6IDI7XG4gICAgd2lkdGg6IDEwMCU7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogcmdiYSgyNDAsIDI0MiwgMjQ1LCAwLjk1KTtcbiAgICBoZWlnaHQ6IGF1dG87XG4gICAgcGFkZGluZzogMTJweCAzNnB4O1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuO1xuICAgIGZsZXgtd3JhcDogd3JhcDtcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICB9XG5cbiAgLm5hdi1sb2dvIHtcbiAgICBoZWlnaHQ6IDIuNXJlbTtcbiAgfVxuXG4gIC5uYXYtdGl0bGUge1xuICAgIGxpbmUtaGVpZ2h0OiAyLjVyZW07XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICAgIGZvbnQtc2l6ZTogMTVweDtcbiAgICBtYXJnaW4tbGVmdDogMTBweDtcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoNXB4KTtcbiAgfVxuXG5gO1xuXG5jb25zdCBnbG9iYWxTdHlsZSA9IChcbiAgPHN0eWxlIGpzeD17dHJ1ZX0gZ2xvYmFsPXt0cnVlfT57YFxuICAgIGgxIHtcbiAgICAgIGZvbnQtd2VpZ2h0OiA0MDAgIWltcG9ydGFudDtcbiAgICAgIGZvbnQtc2l6ZTogMi41cmVtO1xuICAgICAgbGV0dGVyLXNwYWNpbmc6IDAuMXJlbTtcbiAgICAgIG1hcmdpbi10b3A6IDEycHg7XG4gICAgfVxuICAgIHAge1xuICAgICAgZm9udC1zaXplOiAyMHB4O1xuICAgIH1cbiAgICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDc2OHB4KSB7XG4gICAgICBoMSB7XG4gICAgICAgIGZvbnQtc2l6ZTogMS41cmVtO1xuICAgICAgICBsZXR0ZXItc3BhY2luZzogaW5oZXJpdDtcbiAgICAgIH1cbiAgICAgIHAge1xuICAgICAgICBmb250LXdlaWdodDogMzAwO1xuICAgICAgICBmb250LXNpemU6IDIwcHg7XG4gICAgICB9XG4gICAgfVxuICBgfTwvc3R5bGU+XG4pO1xuXG5leHBvcnQgZGVmYXVsdCBNYWluTGF5b3V0O1xuIl19 */\n/*@ sourceURL=/Users/tse/Code/VisuallyLab/BiiMe-store-web/layouts/Main.tsx */",
+  css: "h1{font-weight:400 !important;font-size:2.5rem;-webkit-letter-spacing:0.1rem;-moz-letter-spacing:0.1rem;-ms-letter-spacing:0.1rem;letter-spacing:0.1rem;margin-top:12px;}p{font-size:20px;}@media only screen and (max-width:768px){h1{font-size:1.5rem;-webkit-letter-spacing:inherit;-moz-letter-spacing:inherit;-ms-letter-spacing:inherit;letter-spacing:inherit;}p{font-weight:300;font-size:20px;}}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy90c2UvQ29kZS9WaXN1YWxseUxhYi9CaWlNZS1zdG9yZS13ZWIvbGF5b3V0cy9NYWluLnRzeCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFnRm1DLEFBR2tDLEFBTVosQUFJSSxBQUlELGVBUHBCLENBUW1CLENBSlEsVUFWUixJQWVqQixhQWRzQixrRkFVdEIsdUJBVGdCLGdCQUNsQiIsImZpbGUiOiIvVXNlcnMvdHNlL0NvZGUvVmlzdWFsbHlMYWIvQmlpTWUtc3RvcmUtd2ViL2xheW91dHMvTWFpbi50c3giLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuaW1wb3J0IEhlYWQgZnJvbSAnbmV4dC9oZWFkJztcbmltcG9ydCBMaW5rIGZyb20gJ25leHQvbGluayc7XG5pbXBvcnQgY3NzIGZyb20gJ3N0eWxlZC1qc3gvY3NzJztcbmltcG9ydCB7IENvbCwgTGF5b3V0LCBSb3cgfSBmcm9tICdhbnRkJztcblxuaW1wb3J0ICcuLi9hc3NldHMvc3R5bGUubGVzcyc7XG5cbmltcG9ydCBNZXRhIGZyb20gJy4vTWV0YSc7XG5pbXBvcnQgeyBTSVRFX1RJVExFIH0gZnJvbSAnLi4vY29uc3RhbnRzJztcbmltcG9ydCB7IGdldFJlbGF0aXZlUGF0aCB9IGZyb20gJy4uL3V0aWxzJztcblxuaW50ZXJmYWNlIElQcm9wcyB7XG4gIHRpdGxlPzogc3RyaW5nO1xuICBjaGlsZHJlbjogUmVhY3QuUmVhY3ROb2RlO1xufVxuXG5jb25zdCBNYWluTGF5b3V0OiBSZWFjdC5GdW5jdGlvbkNvbXBvbmVudDxJUHJvcHM+ID0gKHtcbiAgY2hpbGRyZW4sXG4gIHRpdGxlID0gU0lURV9USVRMRSxcbn0pID0+IChcbiAgPExheW91dD5cbiAgICA8SGVhZD5cbiAgICAgIDxNZXRhIHRpdGxlPXt0aXRsZX0gLz5cbiAgICA8L0hlYWQ+XG4gICAgPExheW91dC5IZWFkZXIgY2xhc3NOYW1lPXtgJHtjbGFzc05hbWV9IG5hdi1maXhlZGB9PlxuICAgICAgPGltZ1xuICAgICAgICBzcmM9e2dldFJlbGF0aXZlUGF0aCgnL3N0YXRpYy9sb2dvX0JpaU1lQDMucG5nJyl9XG4gICAgICAgIGFsdD1cImxvZ29cIlxuICAgICAgICBjbGFzc05hbWU9e2Ake2NsYXNzTmFtZX0gbmF2LWxvZ29gfVxuICAgICAgLz5cbiAgICAgIDxkaXY+XG4gICAgICAgIDxMaW5rIGhyZWY9XCIvc3RvcmUtbGlzdFwiPjxhIGNsYXNzTmFtZT17YCR7Y2xhc3NOYW1lfSBuYXYtbGlua2B9PlN0b3JlIGxpc3Q8L2E+PC9MaW5rPlxuICAgICAgPC9kaXY+XG4gICAgPC9MYXlvdXQuSGVhZGVyPlxuICAgIDxMYXlvdXQuQ29udGVudD5cbiAgICAgIDxSb3cgdHlwZT1cImZsZXhcIiBqdXN0aWZ5PVwiY2VudGVyXCI+XG4gICAgICAgIDxDb2wgeHM9ezIwfSBsZz17MTJ9PlxuICAgICAgICAgIHtjaGlsZHJlbn1cbiAgICAgICAgPC9Db2w+XG4gICAgICA8L1Jvdz5cbiAgICA8L0xheW91dC5Db250ZW50PlxuICAgIHtnbG9iYWxTdHlsZX1cbiAgICB7c3R5bGVzfVxuICA8L0xheW91dD5cbik7XG5cbmNvbnN0IHsgc3R5bGVzLCBjbGFzc05hbWUgfSA9IGNzcy5yZXNvbHZlYFxuICAubmF2LWZpeGVkIHtcbiAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgei1pbmRleDogMjtcbiAgICB3aWR0aDogMTAwJTtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMjIsIDI4LCA1Myk7XG4gICAgaGVpZ2h0OiBhdXRvO1xuICAgIHBhZGRpbmc6IDEycHggMzZweDtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbjtcbiAgICBmbGV4LXdyYXA6IHdyYXA7XG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgfVxuXG4gIC5uYXYtbG9nbyB7XG4gICAgd2lkdGg6IDRlbTtcbiAgfVxuXG4gIC5uYXYtbGluayB7XG4gICAgY29sb3I6IHdoaXRlO1xuICB9XG4gXG4gIC5uYXYtdGl0bGUge1xuICAgIGxpbmUtaGVpZ2h0OiAyLjVyZW07XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICAgIGZvbnQtc2l6ZTogMTVweDtcbiAgICBtYXJnaW4tbGVmdDogMTBweDtcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoNXB4KTtcbiAgfVxuXG5gO1xuXG5jb25zdCBnbG9iYWxTdHlsZSA9IChcbiAgPHN0eWxlIGpzeD17dHJ1ZX0gZ2xvYmFsPXt0cnVlfT57YFxuICAgIGgxIHtcbiAgICAgIGZvbnQtd2VpZ2h0OiA0MDAgIWltcG9ydGFudDtcbiAgICAgIGZvbnQtc2l6ZTogMi41cmVtO1xuICAgICAgbGV0dGVyLXNwYWNpbmc6IDAuMXJlbTtcbiAgICAgIG1hcmdpbi10b3A6IDEycHg7XG4gICAgfVxuICAgIHAge1xuICAgICAgZm9udC1zaXplOiAyMHB4O1xuICAgIH1cbiAgICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDc2OHB4KSB7XG4gICAgICBoMSB7XG4gICAgICAgIGZvbnQtc2l6ZTogMS41cmVtO1xuICAgICAgICBsZXR0ZXItc3BhY2luZzogaW5oZXJpdDtcbiAgICAgIH1cbiAgICAgIHAge1xuICAgICAgICBmb250LXdlaWdodDogMzAwO1xuICAgICAgICBmb250LXNpemU6IDIwcHg7XG4gICAgICB9XG4gICAgfVxuICBgfTwvc3R5bGU+XG4pO1xuXG5leHBvcnQgZGVmYXVsdCBNYWluTGF5b3V0O1xuIl19 */\n/*@ sourceURL=/Users/tse/Code/VisuallyLab/BiiMe-store-web/layouts/Main.tsx */",
   __self: undefined
 });
 /* harmony default export */ __webpack_exports__["default"] = (MainLayout);
+
+/***/ }),
+
+/***/ "./layouts/Meta.tsx":
+/*!**************************!*\
+  !*** ./layouts/Meta.tsx ***!
+  \**************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../constants */ "./constants/index.ts");
+var _jsxFileName = "/Users/tse/Code/VisuallyLab/BiiMe-store-web/layouts/Meta.tsx";
+
+
+/* harmony default export */ __webpack_exports__["default"] = (function (_ref) {
+  var title = _ref.title;
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, title), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    charSet: "utf-8",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    name: "viewport",
+    content: "initial-scale=1.0, width=device-width",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    name: "language",
+    content: "en",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    name: "viewport",
+    content: "width=device-width, initial-scale=1.0",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    name: "description",
+    content: _constants__WEBPACK_IMPORTED_MODULE_1__["SITE_DESC"],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+    rel: "icon",
+    type: "image/x-icon",
+    href: _constants__WEBPACK_IMPORTED_MODULE_1__["FAVICON_PATH"],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+    rel: "apple-touch-icon",
+    href: _constants__WEBPACK_IMPORTED_MODULE_1__["LARGE_ICON_PATH"],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    property: "og:url",
+    content: _constants__WEBPACK_IMPORTED_MODULE_1__["SITE_URL"],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    property: "og:title",
+    content: _constants__WEBPACK_IMPORTED_MODULE_1__["SITE_TITLE"],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    property: "og:description",
+    content: _constants__WEBPACK_IMPORTED_MODULE_1__["SITE_DESC"],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    property: "og:image",
+    content: _constants__WEBPACK_IMPORTED_MODULE_1__["LARGE_ICON_PATH"],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    name: "apple-mobile-web-app-capable",
+    content: "yes",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
+    name: "apple-mobile-web-app-status-bar-style",
+    content: "black",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }));
+});
 
 /***/ }),
 
@@ -19264,7 +19263,7 @@ var Index = function Index() {
       lineNumber: 8
     },
     __self: this
-  }, "Yo! Store Web!"));
+  }, "BiiMe Store Web!"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
