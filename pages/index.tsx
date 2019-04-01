@@ -5,7 +5,7 @@ import Section from '../components/Section';
 
 const Index = () => (
   <MainLayout>
-    <Section fullscreen>Yo! Store Web!</Section>
+    <Section fullscreen>BiiMe Store Web!</Section>
   </MainLayout>
 );
 
