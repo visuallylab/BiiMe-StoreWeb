@@ -31,7 +31,7 @@ const MainLayout: React.FunctionComponent<IProps> = ({
         className={`${className} nav-logo`}
       />
       <div>
-        <Link href={getRelativePath('/store-list')}>
+        <Link href="/store-list" as={getRelativePath('/store-list')}>
           <a className={`${className} nav-link`}>Store list</a>
         </Link>
       </div>
